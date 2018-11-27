@@ -1,0 +1,354 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-16 08:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: class.dashboard.init.php:67
+msgid "Verbindungsaufbau..."
+msgstr ""
+
+#: class.dashboard.init.php:68
+msgid "Verbindung erfolgreich hergestellt."
+msgstr ""
+
+#: class.dashboard.init.php:69
+msgid ""
+"Eine Verbindung zu adcell konnte nicht hergestellt werden.</p><p><strong>"
+"Fehlermeldung:</strong>"
+msgstr ""
+
+#: class.dashboard.init.php:70
+msgid ""
+"Eine Verbindung zu adcell konnte nicht hergestellt werden. Bitte überprüfe "
+"deine Einstellungen."
+msgstr ""
+
+#: class.dashboard.init.php:71
+msgid "Kein Bild vorhanden"
+msgstr ""
+
+#: class.dashboard.init.php:72 lib/api_lookup.php:160
+msgid "Importieren"
+msgstr ""
+
+#: class.dashboard.init.php:73
+msgid "Editieren"
+msgstr ""
+
+#: class.dashboard.init.php:74
+msgid "Es wurden keine Produkte gefunden. Bitte definiere deine Suche neu."
+msgstr ""
+
+#: class.dashboard.init.php:75
+msgid "Produkt bearbeiten"
+msgstr ""
+
+#: class.dashboard.init.php:76
+msgid "Importiere Produkt <span class=\"current\">1</span> von"
+msgstr ""
+
+#: class.dashboard.init.php:77 view/panel.php:89
+msgid "Keine CSV-Daten gefunden."
+msgstr ""
+
+#: class.dashboard.init.php:78
+msgid ""
+"Bitte deaktiviere deinen Adblocker um alle Funktionen der API zu nutzen!"
+msgstr ""
+
+#: class.dashboard.init.php:98 class.dashboard.init.php:98
+#: lib/api_helper.php:60
+msgid "Adcell"
+msgstr ""
+
+#: lib/api_helper.php:75
+msgid "Adcell ID"
+msgstr ""
+
+#: lib/api_helper.php:117 view/panel.php:220
+msgid "Kaufen"
+msgstr ""
+
+#: lib/api_helper.php:137
+#, php-format
+msgid "Jetzt bei %s kaufen"
+msgstr ""
+
+#: lib/api_helper.php:160
+#, php-format
+msgid ""
+"Achtung: Um dieses Plugin zu verwenden benötigst du mindestens PHP Version 5."
+"3.x. Derzeit verwendest du Version %s."
+msgstr ""
+
+#: lib/api_helper.php:169
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du cURL. <a href=\"http://php."
+"net/manual/de/book.curl.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+
+#: lib/api_helper.php:178
+msgid ""
+"Achtung: Du hast allow_url_fopen deaktiviert. Bitte kontaktiere deinen "
+"Administrator."
+msgstr ""
+
+#: lib/api_helper.php:187
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du SOAP. <a href=\"http://php."
+"net/manual/en/book.soap.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+
+#: lib/api_helper.php:197
+#, php-format
+msgid ""
+"Damit wir CSV-Dateien auf deinem Server ablegen können benötigen wir "
+"Schreibrechte für den folgenden Ordner: <br><br> <strong>%s.</strong> (CHMOD "
+"775/777)<br><br>Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+
+#: lib/api_import.php:114 lib/api_import.php:199
+msgid "Dieses Produkt existiert bereits."
+msgstr ""
+
+#: lib/api_lookup.php:29
+msgid "Titel"
+msgstr ""
+
+#: lib/api_lookup.php:34 view/panel.php:114
+msgid "ID"
+msgstr ""
+
+#: lib/api_lookup.php:39 view/panel.php:117
+msgid "Artikelnummer"
+msgstr ""
+
+#: lib/api_lookup.php:44
+msgid "Bewertung"
+msgstr ""
+
+#: lib/api_lookup.php:49
+msgid "Anzahl der Bewertungen"
+msgstr ""
+
+#: lib/api_lookup.php:54 view/panel.php:126
+msgid "Preis"
+msgstr ""
+
+#: lib/api_lookup.php:64 view/panel.php:54
+msgid "Beschreibung"
+msgstr ""
+
+#: lib/api_lookup.php:73
+msgid "Taxonomien"
+msgstr ""
+
+#: lib/api_lookup.php:90
+msgid "Produktbild(er)"
+msgstr ""
+
+#: lib/api_lookup.php:92
+msgid "Alle Bilder überspringen"
+msgstr ""
+
+#: lib/api_lookup.php:111
+msgid "Bildname"
+msgstr ""
+
+#: lib/api_lookup.php:117
+msgid "ALT-Tag"
+msgstr ""
+
+#: lib/api_lookup.php:125
+msgid "Artikelbild"
+msgstr ""
+
+#: lib/api_lookup.php:132
+msgid "Überspringen"
+msgstr ""
+
+#: lib/api_lookup.php:163
+msgid "Schließen"
+msgstr ""
+
+#: view/panel.php:14
+msgid "AffiliateTheme Import » adcell"
+msgstr ""
+
+#: view/panel.php:19 view/panel.php:30
+msgid "Einstellungen"
+msgstr ""
+
+#: view/panel.php:20 view/panel.php:75 view/panel.php:94
+msgid "Suche"
+msgstr ""
+
+#: view/panel.php:21 view/panel.php:163
+msgid "API Log"
+msgstr ""
+
+#: view/panel.php:22 view/panel.php:211
+msgid "Buttons"
+msgstr ""
+
+#: view/panel.php:23
+msgid "Hilfe"
+msgstr ""
+
+#: view/panel.php:37
+msgid "Benutzername"
+msgstr ""
+
+#: view/panel.php:41
+msgid "Passwort"
+msgstr ""
+
+#: view/panel.php:45
+msgid "Produktstatus"
+msgstr ""
+
+#: view/panel.php:48
+msgid "Veröffentlicht"
+msgstr ""
+
+#: view/panel.php:49
+msgid "Entwurf"
+msgstr ""
+
+#: view/panel.php:51
+msgid "Du kannst Produkte sofort veröffentlichen oder als Entwurf anlegen."
+msgstr ""
+
+#: view/panel.php:55
+msgid "Produktbeschreibung importieren"
+msgstr ""
+
+#: view/panel.php:58
+msgid "Produkt überprüfen"
+msgstr ""
+
+#: view/panel.php:61
+msgid "Nicht prüfen"
+msgstr ""
+
+#: view/panel.php:62
+msgid "Nur in API-Log vermerken"
+msgstr ""
+
+#: view/panel.php:63
+msgid "Produkt als Entwurf setzen"
+msgstr ""
+
+#: view/panel.php:64
+msgid "Adcell Preis vom Preisvergleich entfernen"
+msgstr ""
+
+#: view/panel.php:71
+msgid "adcell durchsuchen"
+msgstr ""
+
+#: view/panel.php:80
+msgid "Partnerprogramm"
+msgstr ""
+
+#: view/panel.php:87
+msgid "CSV-Datei"
+msgstr ""
+
+#: view/panel.php:99
+msgid "Die Suche kann, je nach Größe der CSV-Datei, etwas länger dauern."
+msgstr ""
+
+#: view/panel.php:110
+msgid "Alle auswählen"
+msgstr ""
+
+#: view/panel.php:120
+msgid "Vorschau"
+msgstr ""
+
+#: view/panel.php:123
+msgid "Name"
+msgstr ""
+
+#: view/panel.php:129
+msgid "Aktion"
+msgstr ""
+
+#: view/panel.php:142
+msgid "Ausgewählte Produkte importieren"
+msgstr ""
+
+#: view/panel.php:165
+msgid "Hier werden dir die letzten 200 Einträge der API log angezeigt."
+msgstr ""
+
+#: view/panel.php:166
+msgid "Log löschen"
+msgstr ""
+
+#: view/panel.php:171
+msgid "Datum"
+msgstr ""
+
+#: view/panel.php:172
+msgid "Typ"
+msgstr ""
+
+#: view/panel.php:173
+msgid "Nachricht"
+msgstr ""
+
+#: view/panel.php:216
+#, php-format
+msgid ""
+"Wenn du für adcell Produkte spezielle Button-Texte ausgeben möchtest, kannst "
+"du diese hier angeben. <br>Für den Kaufen Button kannst du <u><strong>"
+"%s</strong></u> als Platzhalter für den Shopnamen einbinden, sofern "
+"angegeben."
+msgstr ""
+
+#: view/panel.php:219
+msgid "Kaufen Button (kurz)"
+msgstr ""
+
+#: view/panel.php:223
+msgid "Kaufen Button"
+msgstr ""
+
+#: view/panel.php:224
+msgid "Jetzt kaufen"
+msgstr ""
+
+#. Name of the plugin
+msgid "AffiliateTheme - Adcell Schnittstelle"
+msgstr ""
+
+#. Description of the plugin
+msgid "Dieses Plugin erweitert das AffiliateTheme um eine Adcell Schnittstelle"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://affiliatetheme.io"
+msgstr ""
+
+#. Author of the plugin
+msgid "endcore Medienagentur"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://endcore.com"
+msgstr ""

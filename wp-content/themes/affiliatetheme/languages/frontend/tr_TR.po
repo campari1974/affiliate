@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: Affiliate Theme\n"
+"Language: tr-TR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-27 07:27+0000\n"
+"PO-Revision-Date: 2017-08-12 22:29+0000\n"
+"Last-Translator: Turkish <turkish@affiliatetheme.io>\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#. Text in echo
+#: 404.php:9
+msgid ""
+"Es scheint so, als würde die Seite nicht existieren. Vielleicht hilft die "
+"Suche?"
+msgstr "Sayfa mevcut değil gibi görünüyor. Belki arama yardımcı olur ?"
+
+#. Text in echo
+#: 404.php:15
+msgid ""
+"Solltest du vermehrt 404-Fehler bekommen, hilft es die Permalinks unter "
+"<strong>Einstellungen</strong> - <strong>Permalinks</strong> neu zu "
+"speichern."
+msgstr ""
+"Eğer çokca kez 404-hatası ile karşılaşırsan <strong>Ayarlar</strong> - "
+"<strong>Permalinks</strong> altında Permalinkleri yeniden kaydetmen sana "
+"yardımcı olacaktır."
+
+#. Text in function
+#: archive.php:21
+#, php-format
+msgid "Tagesarchiv: %s"
+msgstr "Günlük arşiv: %s"
+
+#: archive.php:23
+#, php-format
+msgid "Monatsarchiv: %s"
+msgstr "Aylık arşiv: %s"
+
+#: archive.php:23
+msgctxt "monatliches datum format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:25
+#, php-format
+msgid "Jahresarchiv: %s"
+msgstr "Yıllık arşiv: %s"
+
+#: archive.php:25
+msgctxt "jaehrliches datum format"
+msgid "Y"
+msgstr "Y"
+
+#. Text in function
+#: author.php:20
+#, php-format
+msgid "Alle Beiträge von <span>%s</span>"
+msgstr "<span>%s</span>'in bütün makaleleri"
+
+#: comments.php:35
+msgid "Du hast eine Frage oder eine Meinung zum Produkt? Teile sie mit uns!"
+msgstr "Bir ürün ile ilgili Sorun veya Görüşün varsa bizimle paylaş !"
+
+#: comments.php:49 library/product/comments.php:102
+msgid "Bewertung *"
+msgstr "Değerlendirme *"
+
+#. Text in function
+#: search.php:36
+#, php-format
+msgid ""
+"Deine Suche im Bereich <span class=\"highlight\">%s</span> nach <span "
+"class=\"highlight\">%s</span> ergab <span class=\"highlight\">%s</span> "
+"Treffer"
+msgstr ""
+"<span class=\"highlight\">%s</span> alanındaki <span class=\"highlight\">"
+"%s</span> araman <span class=\"highlight\">%s</span> sonuç vermiştir."
+
+#. Text in function
+#: search.php:38
+#, php-format
+msgid ""
+"Deine Suche nach <span class=\"highlight\">%s</span> ergab <span "
+"class=\"highlight\">%s</span> Treffer"
+msgstr ""
+"<span class=\"highlight\">%s</span> alanındaki araman<span "
+"class=\"highlight\">%s</span> sonuç verdi."
+
+#. Text in echo
+#: search.php:44
+msgid ""
+"Über die Schaltflächen für die einzelnen Bereiche kannst Du die "
+"Ergebnisliste verfeinern."
+msgstr ""
+"Her bir Bölümde bulunan Butonlar üzerinden Sonuç listesini "
+"iyileştirebilirsin "
+
+#. Text in function
+#: searchform.php:3 parts/header/nav-searchform.php:16
+msgid "Suche nach"
+msgstr "arama"
+
+#: templates/compare.php:6
+msgid "Produktvergleich"
+msgstr "Ürün karşılaştırma"
+
+#. Text in echo
+#: templates/compare.php:75 templates/compare.php:85 templates/compare.php:96
+#: templates/compare.php:108 templates/compare.php:120
+#: parts/product/code-product-compare.php:19
+#: parts/product/code-product-compare.php:30
+msgid "Produkt auswählen"
+msgstr "Ürün seç"
+
+#. Text in echo
+#: templates/compare.php:130 parts/product/code-product-compare.php:39
+msgid "Vergleichen"
+msgstr "karşılaştırma"
+
+#: templates/compare.php:160
+msgid "Keine Treffer"
+msgstr "Sonuç yok"
+
+#: templates/page-builder.php:283 library/widgets/filter.php:144
+#: library/filter/classes/AT_Filter_Field.php:116
+#, php-format
+msgid "%s wählen"
+msgstr "%s seç"
+
+#: templates/page-builder.php:338 library/product/helper.php:1394
+#: library/product/helper.php:1396
+msgid "Sterne"
+msgstr "Yıldız"
+
+#: templates/sidebar-left.php:6
+msgid "Sidebar (Links)"
+msgstr "Sidebar (sol)"
+
+#: templates/sidebar-right.php:5
+msgid "Sidebar (Rechts)"
+msgstr "Sidebar (sağ)"
+
+#. Text in function
+#: library/helper/comments.php:27
+#, php-format
+msgid "<small class=\"pull-right\">%1$s um %2$s</small>"
+msgstr "<small class=\"pull-right\">%1$s değerde %2$s</small>"
+
+#: library/helper/scripts.php:60
+msgid "Vorheriges Bild (Linke Pfeiltaste)"
+msgstr "Önceki Resim (Sol Ok Tuşu)"
+
+#: library/helper/scripts.php:61
+msgid "Nächstes Bild (Rechte Pfeiltase)"
+msgstr "Sonraki Resim (Sağ Ok Tuşu)"
+
+#: library/helper/scripts.php:62
+msgid "%curr% von %total%"
+msgstr "%curr% oranında %total%"
+
+#: library/product/comments.php:144
+msgid "Bitte bewerte dieses Produkt<br>"
+msgstr "Lütfen bu ürünü değerlendir<br>"
+
+#: library/product/helper.php:27
+msgid "Produkte"
+msgstr "Ürünler"
+
+#: library/product/helper.php:100
+msgid "Weitere Details"
+msgstr "Daha fazla Detay"
+
+#: library/product/helper.php:103
+msgid "Details"
+msgstr "Detaylar"
+
+#: library/product/helper.php:110
+msgid "Jetzt kaufen"
+msgstr "Şimdi satın al"
+
+#: library/product/helper.php:111
+msgid "Kaufen"
+msgstr "Satın al"
+
+#: library/product/helper.php:233
+msgid "Zuletzt aktualisiert am: "
+msgstr "Son güncelleme:"
+
+#: library/product/helper.php:310 library/product/helper.php:403
+#, php-format
+msgid "%s / %s bei %s Stimmen"
+msgstr "%s / %s eğer %s oy varsa"
+
+#: library/product/helper.php:401
+#, php-format
+msgid "%s / %s bei %s Stimme"
+msgstr "%s / %s eğer %s oy varsa"
+
+#: library/product/helper.php:717
+msgid "ab"
+msgstr "itibaren"
+
+#: library/product/helper.php:1444
+#, php-format
+msgid ""
+"<strong>Hinweis:</strong> Dies ist ein Fake Produkt. Nicht eingeloggte "
+"Besucher werden auf folgende URL weitergeleitet: <mark>%s</mark>"
+msgstr ""
+"<strong>Uyarı:</strong> Bu sahte bir üründür. Giriş yapmamış Ziyaretçiler bu "
+"Adrese yönlendirilir: <mark>%s</mark>"
+
+#: library/shop/helper.php:23
+msgid "Shops"
+msgstr "Mağazalar"
+
+#. Text in echo
+#: parts/header/col-4-8.php:34 parts/header/col-5-2-5.php:51
+#: parts/header/col-12.php:65
+msgid "<strong>Hinweis:</strong> Navigation nicht gesetzt!"
+msgstr "<strong>Uyarı:</strong> Navigasyon mevcut değil!"
+
+#: parts/product/code-accessories.php:25
+msgid "Es wurde kein Zubehör gefunden."
+msgstr "Aksesuar bulunamadı."
+
+#. Text in function
+#: parts/product/code-buybox.php:14
+msgid "zum Preisvergleich"
+msgstr "Fiyat karşılaştırmasına"
+
+#. Text in function
+#: parts/product/code-comments.php:2
+msgid "Keine Erfahrungsberichte vorhanden"
+msgstr "Henüz değerlendirme yoktur"
+
+#. Text in echo
+#: parts/product/code-compare.php:18 parts/product/code-compare-amp.php:18
+msgid "Shop"
+msgstr "Mağaza"
+
+#. Text in echo
+#: parts/product/code-compare-box.php:14
+#: parts/product/code-compare-box-amp.php:14
+msgid "Zum Preisvergleich"
+msgstr "Fiyat karşılaştırmasına"
+
+#. Text in function
+#: parts/product/code-compare-box.php:15
+#: parts/product/code-compare-box-amp.php:15
+#, php-format
+msgid "Alle (%s) anzeigen"
+msgstr "Bütün (%s) göster"
+
+#. Text in echo
+#: parts/product/code-filter.php:35
+msgid "Ansicht:"
+msgstr "Görünüm:"
+
+#. Text in echo
+#: parts/product/code-filter.php:53
+msgid "Preis (aufsteigend)"
+msgstr "Fiyat (artan)"
+
+#. Text in echo
+#: parts/product/code-filter.php:54
+msgid "Preis (absteigend)"
+msgstr "Fiyat (azalan)"
+
+#. Text in echo
+#: parts/product/code-filter.php:55
+msgid "Name (aufsteigend)"
+msgstr "İsim (artan)"
+
+#. Text in echo
+#: parts/product/code-filter.php:56
+msgid "Name (absteigend)"
+msgstr "Name (azalan)"
+
+#: parts/product/code-price_trend.php:7
+#: parts/product/code-price_trend-modal.php:6 parts/product/code-tabs.php:17
+#: parts/product/code-tabs.php:72 library/product/price_trend/helper.php:372
+#: library/product/price_trend/helper.php:378
+#: library/product/price_trend/helper.php:380
+#: library/product/price_trend/helper.php:385
+msgid "Preisverlauf"
+msgstr "Fiyat süreci"
+
+#: parts/product/code-product-compare.php:17
+msgid "Vergleiche ..."
+msgstr "Karşılaştırmalar ..."
+
+#: parts/product/code-product-compare.php:28
+msgid "mit"
+msgstr "ile"
+
+#. Text in echo
+#: parts/product/code-reviews.php:30
+msgid "Gesamtbewertung"
+msgstr "Genel değerlendirme"
+
+#. Text in echo
+#: parts/product/code-tabs.php:47 parts/product/code-tabs.php:99
+msgid "Zubehör"
+msgstr "Aksesuar"
+
+#: parts/product/code-tabs.php:62
+msgid "Menu"
+msgstr "Menü"
+
+#. Text in function
+#: parts/product/code-tabs.php:83
+#, php-format
+msgid "Erfahrungsberichte <span class=\"badge\">%d</span>"
+msgstr "Değerlendirme <span class=\"badge\">%d</span>"
+
+#. Text in function
+#: parts/product/loop-table-x.php:69 parts/product/loop-table-y.php:58
+msgid "Modell"
+msgstr "Model"
+
+#: parts/product/loop-table-x.php:109 parts/product/loop-table-y.php:61
+msgid "Testergebnis"
+msgstr "Test Sonucu"
+
+#. Text in function
+#: parts/search/loop-search_list.php:22
+msgid "Gefunden in"
+msgstr "Bulunduğu yer"
+
+#: parts/stuff/code-author.php:3
+msgid "Über den Autor"
+msgstr "Yazar hakkında"
+
+#: parts/stuff/code-author.php:7
+msgid "Weitere Artikel von"
+msgstr "Diğer Ürünler"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:14
+#, php-format
+msgid "Kategorie(n): %s"
+msgstr "Kategori(ler): %s"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:19
+msgid "Schlagwörter: "
+msgstr "Anahtar kelimeler:"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:26
+msgid "Nächster Artikel"
+msgstr "Sonraki Ürün"
+
+#: parts/stuff/code-social.php:23
+msgid "Signal"
+msgid_plural "Signale"
+msgstr[0] "Sinyal"
+msgstr[1] "Sinyal"
+
+#: parts/stuff/code-social.php:40
+msgid "Like"
+msgid_plural "Likes"
+msgstr[0] "Beğeni"
+msgstr[1] "Beğeni"
+
+#: parts/stuff/code-social.php:52 parts/stuff/code-social.php:76
+#: parts/stuff/code-social.php:88 parts/stuff/code-social.php:100
+#: parts/stuff/code-social.php:112
+msgid "Share"
+msgid_plural "Shares"
+msgstr[0] "Paylaş"
+msgstr[1] "Paylaş"
+
+#: parts/stuff/code-social.php:64
+msgid "Tweet"
+msgid_plural "Tweets"
+msgstr[0] "Tweet"
+msgstr[1] "Tweet"
+
+#. Text in echo
+#: parts/stuff/code-social.php:78
+msgid "plussen"
+msgstr "arttır"
+
+#. Text in echo
+#: parts/stuff/code-social.php:120
+msgid "Meine Empfehlung f&uuml;r dich"
+msgstr "Benim sana önerim"
+
+#: library/filter/classes/AT_Filter_Field.php:94
+msgid " Sterne"
+msgstr " Yıldız"
+
+#. Text in echo
+#: 404.php:8
+msgid "Seite nicht gefunden"
+msgstr "Sayfa bulunamadı"
+
+#. Text in echo
+#: 404.php:14
+msgid "Hinweis für Administrator"
+msgstr "Admin için uyarı"
+
+#. Text in echo
+#: archive.php:27
+msgid "Archiv"
+msgstr "arşiv"
+
+#. Text in function
+#: author.php:38 comments.php:44 comments.php:114
+msgid "Webseite"
+msgstr "web sitesi"
+
+#. Text in function
+#: comments.php:34 comments.php:101
+msgid "Senden"
+msgstr "gönder"
+
+#. Text in function
+#: comments.php:36 comments.php:103
+msgid ""
+"Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind "
+"markiert *"
+msgstr "E-Mail adresin gizli kalacak. Gerekli alanlar işaretli *"
+
+#. Text in function
+#: comments.php:39 comments.php:109
+msgid "Name"
+msgstr "İsim"
+
+#. Text in function
+#: comments.php:41 comments.php:111
+msgid "E-Mail Adresse"
+msgstr "E-posta adresi"
+
+#. Text in function
+#: comments.php:66 comments.php:104 library/product/comments.php:122
+msgid "Kommentar"
+msgstr "Yorum"
+
+#. Text in function
+#: comments.php:102
+msgid "Du hast eine Frage oder eine Meinung zum Artikel? Teile sie mit uns!"
+msgstr "Soru ve görüşlerini bizimle paylaş!"
+
+#. Text in function
+#: search.php:56
+msgid "Alle"
+msgstr "Hepsi"
+
+#. Text in function
+#: single-filter.php:28 templates/filter.php:116
+#, php-format
+msgid "Ihre Suche ergab <span class=\"highlight\">%s</span> Treffer"
+msgstr "Aramanız için <span class=\"highlight\">%s</span> sonuç bulundu"
+
+#. Text in echo
+#: single-filter.php:58 templates/filter.php:138 library/filter/helper.php:247
+msgid "Es wurden keine Produkte gefunden."
+msgstr "Ürün bulunamadı"
+
+#. Text in function
+#: templates/page-builder.php:311 library/widgets/filter.php:24
+#: library/widgets/filter.php:221 parts/product/code-compare.php:19
+#: parts/product/code-compare-amp.php:19 parts/product/loop-table-x.php:83
+#: parts/product/loop-table-x.php:155 parts/product/loop-table-y.php:72
+#: library/filter/classes/AT_Filter_Field.php:53
+msgid "Preis"
+msgstr "fiyat"
+
+#. Text in function
+#: templates/page-builder.php:335 library/widgets/filter.php:26
+#: library/widgets/filter.php:231 parts/product/loop-table-x.php:127
+#: library/filter/classes/AT_Filter_Field.php:80
+msgid "Bewertung"
+msgstr "Değerlendirme"
+
+#. Text in echo
+#: templates/page-builder.php:409 library/widgets/filter.php:164
+#: library/filter/classes/AT_Filter.php:92
+msgid "Filtern"
+msgstr "Filtrele"
+
+#. Text in echo
+#: library/helper/comments.php:31 library/product/comments.php:31
+msgid "Dein Kommentar wartet auf Freischaltung."
+msgstr "Yorumun onay sonrası yayınlanacaktır."
+
+#. Text in function
+#: library/helper/filter.php:67
+msgid "PDFs"
+msgstr "PDF dosyaları"
+
+#. Text in function
+#: library/helper/filter.php:68
+msgid "PDFs Verwalten"
+msgstr "PDF dosya yönetimi"
+
+#. Text in function
+#: library/helper/pagination.php:36
+msgid "Seite 1 - Neueste Artikel"
+msgstr "1. Sayfa - Yeni yazılar"
+
+#. Text in function
+#: library/helper/pagination.php:40
+msgid "- Neuere Artikel"
+msgstr "yeni yazılar"
+
+#. Text in function
+#: library/helper/pagination.php:53
+msgid "Seite"
+msgstr "sayfa"
+
+#. Text in function
+#: library/helper/pagination.php:60
+msgid "- Ältere Artikel"
+msgstr "önceki yazılar"
+
+#. Text in function
+#: library/helper/pagination.php:64
+msgid "- Älteste Artikel"
+msgstr "eski yazılar"
+
+#. Text in echo
+#: library/widgets/filter.php:163 library/filter/classes/AT_Filter.php:97
+msgid "Filter zurücksetzen"
+msgstr "Filtreyi sıfırla"
+
+#. Text in echo
+#: library/widgets/product-advice.php:126
+#: library/widgets/product-select.php:121
+msgid "<strong>Fehler:</strong> Es wurden keine Produkte gefunden."
+msgstr ""
+"\n"
+"<strong>Hata:</strong> Ürün bulunamadı."
+
+#. Text in function
+#: parts/product/code-comments.php:2 parts/stuff/code-comments.php:5
+msgid "Kommentare"
+msgstr "Yorumlar"
+
+#. Text in echo
+#: parts/product/code-compare.php:13 parts/product/code-compare-amp.php:13
+#: parts/product/code-compare-box.php:19
+#: parts/product/code-compare-box-amp.php:19
+msgid "Preisvergleich"
+msgstr "fiyat karşılaştırması"
+
+#. Text in echo
+#: parts/product/code-filter.php:51
+msgid "Neuheiten"
+msgstr "Yenilikler"
+
+#. Text in echo
+#: parts/product/code-filter.php:52
+msgid "Beliebtheit"
+msgstr "Beğenilme"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:50
+msgid "Hinweis:"
+msgstr "Uyarı"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:51
+msgid ""
+"Bitte lege eine Seite mit dem Template \"Produktvergleich\" fest, damit der "
+"Produktvergleich korrekt funktionieren kann."
+msgstr ""
+"Fiyat karşılaştırmasının sorunsuz bir şekilde işlemesi için \"Fiyat "
+"karşılaştırması\" isimli tema ile bir sayfa oluştur."
+
+#: parts/product/code-related.php:73
+msgid "Es wurden keine ähnlichen Produkte gefunden."
+msgstr "Benzer ürünler bulunamadı"
+
+#. Text in echo
+#: parts/product/code-tabs.php:10 parts/product/code-tabs.php:67
+#: library/plugins/amp/templates/single-product.php:48
+msgid "Beschreibung"
+msgstr "Tanım"
+
+#. Text in echo
+#: parts/product/code-tabs.php:27
+msgid "Erfahrungsberichte"
+msgstr "Inceleme raporları"
+
+#. Text in echo
+#: parts/product/code-tabs.php:37 parts/product/code-tabs.php:93
+msgid "Ähnliche Produkte"
+msgstr "benzer ürünler"
+
+#. Text in echo
+#: parts/product/page-cloak.php:19
+msgid "Weiterleitung"
+msgstr "Yönlendirme"
+
+#. Text in function
+#: parts/product/page-cloak.php:27
+#, php-format
+msgid ""
+"Du wirst sofort weitergeleitet. Falls nicht, klicke <a href=\"%s\" "
+"rel=\"nofollow\">hier."
+msgstr ""
+"Yeni bir sayfaya yönlendirileceksin. Eğer otomatik yönlendirme çalışmıyorsa "
+"lütfen <a href=\"%s\" rel=\"nofollow\">buraya tıkla"
+
+#. Text in function
+#: parts/stuff/code-comments.php:5
+msgid "Keine Kommentare vorhanden"
+msgstr "Yorum yok"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:4
+msgid "Veröffentlicht von"
+msgstr "Yazar: "
+
+#: parts/stuff/code-postmeta.php:25
+msgid "Keine Kommentare"
+msgstr "0 yorum"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "1 Kommentar"
+msgstr "1 yorum"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "% Kommentare"
+msgstr "% yorum"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:16
+msgid "zum Vorherigen Artikel"
+msgstr "Bir önceki yazıya erişim"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:17
+msgid "Vorheriger Artikel"
+msgstr "Önceki Yazı"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:25
+msgid "zum Nächsten Artikel"
+msgstr "Bir sonraki yazıya erişim"
+
+#. Text in echo
+#: parts/stuff/code-related.php:39
+msgid "Ähnliche Beiträge"
+msgstr "benzer içerikler"
+
+#. Text in echo
+#: parts/stuff/code-social.php:31
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. Text in echo
+#: parts/stuff/code-social.php:42
+msgid "liken"
+msgstr "beğen"
+
+#. Text in echo
+#: parts/stuff/code-social.php:54
+msgid "teilen"
+msgstr "paylaş"
+
+#. Text in echo
+#: parts/stuff/code-social.php:66
+msgid "tweeten"
+msgstr "tweetle"
+
+#. Text in echo
+#: parts/stuff/code-social.php:90 parts/stuff/code-social.php:102
+#: parts/stuff/code-social.php:114
+msgid "sharen"
+msgstr "paylaş"
+
+#. Text in echo
+#: parts/stuff/code-social.php:122
+msgid "mailen"
+msgstr "E-posta yaz"

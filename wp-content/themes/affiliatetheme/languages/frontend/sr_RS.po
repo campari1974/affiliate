@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: Affiliate Theme\n"
+"Language: sr-RS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-27 07:27+0000\n"
+"PO-Revision-Date: 2017-04-27 07:27+0000\n"
+"Last-Translator: endcore <mail@endcore.com>\n"
+"Language-Team: Serbian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)"
+
+#: archive.php:23
+#, php-format
+msgid "Monatsarchiv: %s"
+msgstr ""
+
+#: archive.php:23
+msgctxt "monatliches datum format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+msgid "Jahresarchiv: %s"
+msgstr ""
+
+#: archive.php:25
+msgctxt "jaehrliches datum format"
+msgid "Y"
+msgstr ""
+
+#: comments.php:35
+msgid "Du hast eine Frage oder eine Meinung zum Produkt? Teile sie mit uns!"
+msgstr ""
+
+#: comments.php:49 library/product/comments.php:102
+msgid "Bewertung *"
+msgstr ""
+
+#: templates/compare.php:6
+msgid "Produktvergleich"
+msgstr ""
+
+#: templates/compare.php:160
+msgid "Keine Treffer"
+msgstr ""
+
+#: templates/page-builder.php:338 library/product/helper.php:1394
+#: library/product/helper.php:1396
+msgid "Sterne"
+msgstr ""
+
+#: templates/sidebar-left.php:6
+msgid "Sidebar (Links)"
+msgstr ""
+
+#: templates/sidebar-right.php:5
+msgid "Sidebar (Rechts)"
+msgstr ""
+
+#: library/helper/scripts.php:60
+msgid "Vorheriges Bild (Linke Pfeiltaste)"
+msgstr ""
+
+#: library/helper/scripts.php:61
+msgid "Nächstes Bild (Rechte Pfeiltase)"
+msgstr ""
+
+#: library/helper/scripts.php:62
+msgid "%curr% von %total%"
+msgstr ""
+
+#: library/product/comments.php:144
+msgid "Bitte bewerte dieses Produkt<br>"
+msgstr ""
+
+#: library/product/helper.php:27
+msgid "Produkte"
+msgstr ""
+
+#: library/product/helper.php:100
+msgid "Weitere Details"
+msgstr ""
+
+#: library/product/helper.php:103
+msgid "Details"
+msgstr ""
+
+#: library/product/helper.php:110
+msgid "Jetzt kaufen"
+msgstr ""
+
+#: library/product/helper.php:111
+msgid "Kaufen"
+msgstr ""
+
+#: library/product/helper.php:233
+msgid "Zuletzt aktualisiert am: "
+msgstr ""
+
+#: library/product/helper.php:401
+#, php-format
+msgid "%s / %s bei %s Stimme"
+msgstr ""
+
+#: library/product/helper.php:717
+msgid "ab"
+msgstr ""
+
+#: library/product/helper.php:1444
+#, php-format
+msgid ""
+"<strong>Hinweis:</strong> Dies ist ein Fake Produkt. Nicht eingeloggte "
+"Besucher werden auf folgende URL weitergeleitet: <mark>%s</mark>"
+msgstr ""
+
+#: library/shop/helper.php:23
+msgid "Shops"
+msgstr ""
+
+#: parts/product/code-price_trend.php:7
+#: parts/product/code-price_trend-modal.php:6 parts/product/code-tabs.php:17
+#: parts/product/code-tabs.php:72 library/product/price_trend/helper.php:372
+#: library/product/price_trend/helper.php:378
+#: library/product/price_trend/helper.php:380
+#: library/product/price_trend/helper.php:385
+msgid "Preisverlauf"
+msgstr ""
+
+#: parts/product/code-product-compare.php:17
+msgid "Vergleiche ..."
+msgstr ""
+
+#: parts/product/code-product-compare.php:28
+msgid "mit"
+msgstr ""
+
+#: parts/product/code-tabs.php:62
+msgid "Menu"
+msgstr ""
+
+#: parts/product/loop-table-x.php:109 parts/product/loop-table-y.php:61
+msgid "Testergebnis"
+msgstr ""
+
+#: parts/stuff/code-social.php:23
+msgid "Signal"
+msgid_plural "Signale"
+msgstr[0] ""
+msgstr[1] ""
+
+#: parts/stuff/code-social.php:40
+msgid "Like"
+msgid_plural "Likes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: parts/stuff/code-social.php:52 parts/stuff/code-social.php:76
+#: parts/stuff/code-social.php:88 parts/stuff/code-social.php:100
+#: parts/stuff/code-social.php:112
+msgid "Share"
+msgid_plural "Shares"
+msgstr[0] ""
+msgstr[1] ""
+
+#: parts/stuff/code-social.php:64
+msgid "Tweet"
+msgid_plural "Tweets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/filter/classes/AT_Filter_Field.php:94
+msgid " Sterne"
+msgstr ""
+
+#. Text in function
+#: search.php:38
+#, fuzzy
+msgid ""
+"Deine Suche nach <span class=\"highlight\">%s</span> ergab <span "
+"class=\"highlight\">%s</span> Treffer"
+msgstr ""
+"Va&#x161;a potraga za <span class=\"highlight\">%s</span> rezultirala <span "
+"class=\"highlight\">%s</span> pogoda."
+
+#. Text in echo
+#: search.php:44
+#, fuzzy
+msgid ""
+"Über die Schaltflächen für die einzelnen Bereiche kannst Du die "
+"Ergebnisliste verfeinern."
+msgstr ""
+"Preko tastature mo&#x17e;e&#x161; rezultate pojedina&#x10d;nih podru&#x10d;"
+"ja pro&#x10d;istiti"
+
+#: library/product/helper.php:310 library/product/helper.php:403
+#, fuzzy
+msgid "%s / %s bei %s Stimmen"
+msgstr "%s / 5 od %s glasova"
+
+#. Text in echo
+#: 404.php:8
+msgid "Seite nicht gefunden"
+msgstr "Stranica nije prona&#x10f;ena"
+
+#. Text in echo
+#: 404.php:9
+msgid ""
+"Es scheint so, als würde die Seite nicht existieren. Vielleicht hilft die "
+"Suche?"
+msgstr ""
+"&#x10c;ini se da ne postoji stranica. Mo&#x17e;da &#x107;e pomo&#x107;i "
+"tra&#x17e;enje?"
+
+#. Text in echo
+#: 404.php:14
+msgid "Hinweis für Administrator"
+msgstr "Napomena za administratora"
+
+#. Text in echo
+#: 404.php:15
+msgid ""
+"Solltest du vermehrt 404-Fehler bekommen, hilft es die Permalinks unter "
+"<strong>Einstellungen</strong> - <strong>Permalinks</strong> neu zu "
+"speichern."
+msgstr ""
+"Ako bi dobio vi&#x161;e puta 404-gre&#x161;ki, poma&#x17e;e ti permalinks u "
+"<strong>namje&#x161;tanju</strong>-<strong>permalinks</strong> ponovo "
+"osigurati."
+
+#. Text in function
+#: archive.php:21
+#, php-format
+msgid "Tagesarchiv: %s"
+msgstr "Dnevna arhiva: %s"
+
+#. Text in echo
+#: archive.php:27
+msgid "Archiv"
+msgstr "Arhiva"
+
+#. Text in function
+#: author.php:20
+#, php-format
+msgid "Alle Beiträge von <span>%s</span>"
+msgstr "Sve &#x10d;lanove od <span>% s </ span>"
+
+#. Text in function
+#: author.php:38 comments.php:44 comments.php:114
+msgid "Webseite"
+msgstr "web stranica"
+
+#. Text in function
+#: comments.php:34 comments.php:101
+msgid "Senden"
+msgstr "Poslati"
+
+#. Text in function
+#: comments.php:36 comments.php:103
+msgid ""
+"Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind "
+"markiert *"
+msgstr ""
+"Va&#x161;a adresa e-pošte ne&#x107;e biti objavljena. Obavezna polja su "
+"ozna&#x10d;ena *"
+
+#. Text in function
+#: comments.php:39 comments.php:109
+msgid "Name"
+msgstr "Ime"
+
+#. Text in function
+#: comments.php:41 comments.php:111
+msgid "E-Mail Adresse"
+msgstr "E-mail adresa"
+
+#. Text in function
+#: comments.php:66 comments.php:104 library/product/comments.php:122
+msgid "Kommentar"
+msgstr "Komentar"
+
+#. Text in function
+#: comments.php:102
+msgid "Du hast eine Frage oder eine Meinung zum Artikel? Teile sie mit uns!"
+msgstr ""
+"Imate pitanje ili mi&#x161;ljenje o ovom proizvodu? Podijelite ga s nama!"
+
+#. Text in function
+#: search.php:36
+#, php-format
+msgid ""
+"Deine Suche im Bereich <span class=\"highlight\">%s</span> nach <span "
+"class=\"highlight\">%s</span> ergab <span class=\"highlight\">%s</span> "
+"Treffer"
+msgstr ""
+"Va&#x161;a potraga <span class=\"highlight\">%s</span> za <span "
+"class=\"highlight\">%s</span> rezultirala <span class=\"highlight\">%s</span>"
+" pogoda"
+
+#. Text in function
+#: search.php:56
+msgid "Alle"
+msgstr "Sve"
+
+#. Text in function
+#: searchform.php:3 parts/header/nav-searchform.php:16
+msgid "Suche nach"
+msgstr "Tra&#x17e;enje za"
+
+#. Text in function
+#: single-filter.php:28 templates/filter.php:116
+#, php-format
+msgid "Ihre Suche ergab <span class=\"highlight\">%s</span> Treffer"
+msgstr ""
+"Va&#x161;a potraga rezultirala <span class=\"highlight\">%s</span> pogoda"
+
+#. Text in echo
+#: single-filter.php:58 templates/filter.php:138 library/filter/helper.php:247
+msgid "Es wurden keine Produkte gefunden."
+msgstr "Produkti nisu pronadeni."
+
+#. Text in echo
+#: templates/compare.php:75 templates/compare.php:85 templates/compare.php:96
+#: templates/compare.php:108 templates/compare.php:120
+#: parts/product/code-product-compare.php:19
+#: parts/product/code-product-compare.php:30
+msgid "Produkt auswählen"
+msgstr "Odaberite proizvod"
+
+#. Text in echo
+#: templates/compare.php:130 parts/product/code-product-compare.php:39
+msgid "Vergleichen"
+msgstr "Usporediti"
+
+#: templates/page-builder.php:283 library/widgets/filter.php:144
+#: library/filter/classes/AT_Filter_Field.php:116
+#, php-format
+msgid "%s wählen"
+msgstr "%s izabrati"
+
+#. Text in function
+#: templates/page-builder.php:311 library/widgets/filter.php:24
+#: library/widgets/filter.php:221 parts/product/code-compare.php:19
+#: parts/product/code-compare-amp.php:19 parts/product/loop-table-x.php:83
+#: parts/product/loop-table-x.php:155 parts/product/loop-table-y.php:72
+#: library/filter/classes/AT_Filter_Field.php:53
+msgid "Preis"
+msgstr "Cijena"
+
+#. Text in function
+#: templates/page-builder.php:335 library/widgets/filter.php:26
+#: library/widgets/filter.php:231 parts/product/loop-table-x.php:127
+#: library/filter/classes/AT_Filter_Field.php:80
+msgid "Bewertung"
+msgstr "Ocjena"
+
+#. Text in echo
+#: templates/page-builder.php:409 library/widgets/filter.php:164
+#: library/filter/classes/AT_Filter.php:92
+msgid "Filtern"
+msgstr "Filter"
+
+#. Text in function
+#: library/helper/comments.php:27
+#, php-format
+msgid "<small class=\"pull-right\">%1$s um %2$s</small>"
+msgstr "<small class=\"pull-right\">%1$s za %2$s</small> "
+
+#. Text in echo
+#: library/helper/comments.php:31 library/product/comments.php:31
+msgid "Dein Kommentar wartet auf Freischaltung."
+msgstr "Va&#x161; komentar &#x10d;eka na aktivaciju."
+
+#. Text in function
+#: library/helper/filter.php:67
+msgid "PDFs"
+msgstr "PDF-ovi"
+
+#. Text in function
+#: library/helper/filter.php:68
+msgid "PDFs Verwalten"
+msgstr "Upravljanje PDFova"
+
+#. Text in function
+#: library/helper/pagination.php:36
+msgid "Seite 1 - Neueste Artikel"
+msgstr "Stranica 1 - Najnoviji &#x10d;lanci"
+
+#. Text in function
+#: library/helper/pagination.php:40
+msgid "- Neuere Artikel"
+msgstr "- Novi &#x10d;lanak"
+
+#. Text in function
+#: library/helper/pagination.php:53
+msgid "Seite"
+msgstr "Stranica"
+
+#. Text in function
+#: library/helper/pagination.php:60
+msgid "- Ältere Artikel"
+msgstr "- Stariji &#x10d;lanak"
+
+#. Text in function
+#: library/helper/pagination.php:64
+msgid "- Älteste Artikel"
+msgstr "- Najstari &#x10d;lanak"
+
+#. Text in echo
+#: library/widgets/filter.php:163 library/filter/classes/AT_Filter.php:97
+msgid "Filter zurücksetzen"
+msgstr "Clear filter"
+
+#. Text in echo
+#: library/widgets/product-advice.php:126
+#: library/widgets/product-select.php:121
+msgid "<strong>Fehler:</strong> Es wurden keine Produkte gefunden."
+msgstr "<strong>Gre&#x161;ka:</ strong> Nema proizvoda."
+
+#. Text in echo
+#: parts/header/col-4-8.php:34 parts/header/col-5-2-5.php:51
+#: parts/header/col-12.php:65
+msgid "<strong>Hinweis:</strong> Navigation nicht gesetzt!"
+msgstr "<strong>Napomena:</ strong> Navigaciju nije postavljena!"
+
+#: parts/product/code-accessories.php:25
+msgid "Es wurde kein Zubehör gefunden."
+msgstr "Nije na&#x111;en pribor"
+
+#. Text in function
+#: parts/product/code-buybox.php:14
+msgid "zum Preisvergleich"
+msgstr "za usporedbu cijena"
+
+#. Text in function
+#: parts/product/code-comments.php:2
+msgid "Keine Erfahrungsberichte vorhanden"
+msgstr "Jo&#x161; nema recenzija"
+
+#. Text in function
+#: parts/product/code-comments.php:2 parts/stuff/code-comments.php:5
+msgid "Kommentare"
+msgstr "Komentare"
+
+#. Text in echo
+#: parts/product/code-compare.php:13 parts/product/code-compare-amp.php:13
+#: parts/product/code-compare-box.php:19
+#: parts/product/code-compare-box-amp.php:19
+msgid "Preisvergleich"
+msgstr "Usporedba cijena"
+
+#. Text in echo
+#: parts/product/code-compare.php:18 parts/product/code-compare-amp.php:18
+msgid "Shop"
+msgstr "Shop"
+
+#. Text in echo
+#: parts/product/code-compare-box.php:14
+#: parts/product/code-compare-box-amp.php:14
+msgid "Zum Preisvergleich"
+msgstr "Za usporedbu cijena"
+
+#. Text in function
+#: parts/product/code-compare-box.php:15
+#: parts/product/code-compare-box-amp.php:15
+#, php-format
+msgid "Alle (%s) anzeigen"
+msgstr "Poka&#x17e;i sve (%s)"
+
+#. Text in echo
+#: parts/product/code-filter.php:35
+msgid "Ansicht:"
+msgstr "Pogled:"
+
+#. Text in echo
+#: parts/product/code-filter.php:51
+msgid "Neuheiten"
+msgstr "Novosti"
+
+#. Text in echo
+#: parts/product/code-filter.php:52
+msgid "Beliebtheit"
+msgstr "Popularnost"
+
+#. Text in echo
+#: parts/product/code-filter.php:53
+msgid "Preis (aufsteigend)"
+msgstr "Cijena (uzlazni)"
+
+#. Text in echo
+#: parts/product/code-filter.php:54
+msgid "Preis (absteigend)"
+msgstr "Cijena (silazni)"
+
+#. Text in echo
+#: parts/product/code-filter.php:55
+msgid "Name (aufsteigend)"
+msgstr "Ime (uzlazno)"
+
+#. Text in echo
+#: parts/product/code-filter.php:56
+msgid "Name (absteigend)"
+msgstr "Ime (silazno)"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:50
+msgid "Hinweis:"
+msgstr "Napomena:"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:51
+msgid ""
+"Bitte lege eine Seite mit dem Template \"Produktvergleich\" fest, damit der "
+"Produktvergleich korrekt funktionieren kann."
+msgstr ""
+"Molimo prilo&#x17e;ite stranicu s templetom \"usporedbe proizvoda\" fiksno, "
+"tako da usporedba mo&#x17e;e funkcionirati ispravno."
+
+#: parts/product/code-related.php:73
+msgid "Es wurden keine ähnlichen Produkte gefunden."
+msgstr "Nisu sli&#x10d;nih produkti na&#x111;eni."
+
+#. Text in echo
+#: parts/product/code-reviews.php:30
+msgid "Gesamtbewertung"
+msgstr "Ukupna ocjena"
+
+#. Text in echo
+#: parts/product/code-tabs.php:10 parts/product/code-tabs.php:67
+#: library/plugins/amp/templates/single-product.php:48
+msgid "Beschreibung"
+msgstr "Opis"
+
+#. Text in echo
+#: parts/product/code-tabs.php:27
+msgid "Erfahrungsberichte"
+msgstr "Mi&#x161;ljenje"
+
+#. Text in echo
+#: parts/product/code-tabs.php:37 parts/product/code-tabs.php:93
+msgid "Ähnliche Produkte"
+msgstr "sli&#x10d;ne proizvode"
+
+#. Text in echo
+#: parts/product/code-tabs.php:47 parts/product/code-tabs.php:99
+msgid "Zubehör"
+msgstr "Pribor"
+
+#. Text in function
+#: parts/product/code-tabs.php:83
+#, php-format
+msgid "Erfahrungsberichte <span class=\"badge\">%d</span>"
+msgstr "Mi&#x161;ljenje <span class=\"badge\">%d</span> "
+
+#. Text in function
+#: parts/product/loop-table-x.php:69 parts/product/loop-table-y.php:58
+msgid "Modell"
+msgstr "Model"
+
+#. Text in echo
+#: parts/product/page-cloak.php:19
+msgid "Weiterleitung"
+msgstr "prosljeđivanje"
+
+#. Text in function
+#: parts/product/page-cloak.php:27
+#, php-format
+msgid ""
+"Du wirst sofort weitergeleitet. Falls nicht, klicke <a href=\"%s\" "
+"rel=\"nofollow\">hier."
+msgstr ""
+"\n"
+"Vi &#x107;ete odmah biti dalje preusmjeren. Ako ne, kliknite <a href=\"%s\" "
+"rel=\"nofollow\"> ovdje."
+
+#. Text in function
+#: parts/search/loop-search_list.php:22
+msgid "Gefunden in"
+msgstr "Na&#x111;en u"
+
+#: parts/stuff/code-author.php:3
+msgid "Über den Autor"
+msgstr "O autoru"
+
+#: parts/stuff/code-author.php:7
+msgid "Weitere Artikel von"
+msgstr "Ostali proizvodi od"
+
+#. Text in function
+#: parts/stuff/code-comments.php:5
+msgid "Keine Kommentare vorhanden"
+msgstr "Jo&#x161; nema komentara"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:4
+msgid "Veröffentlicht von"
+msgstr "Objavljen od"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:14
+#, php-format
+msgid "Kategorie(n): %s"
+msgstr "kategorija(e): %s"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:19
+msgid "Schlagwörter: "
+msgstr "Klju&#x10d;ne rije&#x10d;i: "
+
+#: parts/stuff/code-postmeta.php:25
+msgid "Keine Kommentare"
+msgstr "Nema komentara"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "1 Kommentar"
+msgstr "1 komentar"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "% Kommentare"
+msgstr "% komentara"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:16
+msgid "zum Vorherigen Artikel"
+msgstr "za prethodni &#x10d;lanka"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:17
+msgid "Vorheriger Artikel"
+msgstr "Prethodni &#x10d;lanak"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:25
+msgid "zum Nächsten Artikel"
+msgstr "sljede&#x107;i &#x10d;lanak"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:26
+msgid "Nächster Artikel"
+msgstr "Sljede&#x107;i &#x10d;lanak"
+
+#. Text in echo
+#: parts/stuff/code-related.php:39
+msgid "Ähnliche Beiträge"
+msgstr "sli&#x10d;ne &#x10d;lanke"
+
+#. Text in echo
+#: parts/stuff/code-social.php:31
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. Text in echo
+#: parts/stuff/code-social.php:42
+msgid "liken"
+msgstr "lijkati"
+
+#. Text in echo
+#: parts/stuff/code-social.php:54
+msgid "teilen"
+msgstr "dijeliti"
+
+#. Text in echo
+#: parts/stuff/code-social.php:66
+msgid "tweeten"
+msgstr "tweet"
+
+#. Text in echo
+#: parts/stuff/code-social.php:78
+msgid "plussen"
+msgstr "dodati"
+
+#. Text in echo
+#: parts/stuff/code-social.php:90 parts/stuff/code-social.php:102
+#: parts/stuff/code-social.php:114
+msgid "sharen"
+msgstr "podijeliti"
+
+#. Text in echo
+#: parts/stuff/code-social.php:120
+msgid "Meine Empfehlung f&uuml;r dich"
+msgstr "Moja preporuka za tebe"
+
+#. Text in echo
+#: parts/stuff/code-social.php:122
+msgid "mailen"
+msgstr "mejlati"

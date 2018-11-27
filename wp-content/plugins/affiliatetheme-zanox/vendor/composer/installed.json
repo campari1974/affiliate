@@ -1,0 +1,132 @@
+[
+    {
+        "name": "zendframework/zend-stdlib",
+        "version": "2.4.0",
+        "version_normalized": "2.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/Component_ZendStdlib.git",
+            "reference": "eab586f4c18af3fa63c977611939f1f4a3cf1030"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/eab586f4c18af3fa63c977611939f1f4a3cf1030",
+            "reference": "eab586f4c18af3fa63c977611939f1f4a3cf1030",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.23"
+        },
+        "require-dev": {
+            "zendframework/zend-eventmanager": "self.version",
+            "zendframework/zend-filter": "self.version",
+            "zendframework/zend-serializer": "self.version",
+            "zendframework/zend-servicemanager": "self.version"
+        },
+        "suggest": {
+            "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
+            "zendframework/zend-filter": "To support naming strategy hydrator usage",
+            "zendframework/zend-serializer": "Zend\\Serializer component",
+            "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+        },
+        "time": "2015-04-01 18:09:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev",
+                "dev-develop": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Stdlib\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "homepage": "https://github.com/zendframework/zf2",
+        "keywords": [
+            "stdlib",
+            "zf2"
+        ]
+    },
+    {
+        "name": "zanox/api-client-php",
+        "version": "dev-extend",
+        "version_normalized": "dev-extend",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/giacomo/api_client_php.git",
+            "reference": "4fc0ebf795f6319739613025815dc49834253529"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/giacomo/api_client_php/zipball/4fc0ebf795f6319739613025815dc49834253529",
+            "reference": "4fc0ebf795f6319739613025815dc49834253529",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4",
+            "zendframework/zend-stdlib": "2.*"
+        },
+        "time": "2015-04-18 22:17:28",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Zanox\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "Zanox",
+                "email": "rba@zanox.com"
+            },
+            {
+                "name": "Thomas Nicolai",
+                "email": "thomas.nicolai@sociomantic.com",
+                "role": "Author"
+            },
+            {
+                "name": "Lars Kirchhoff",
+                "email": "lars.kirchhoff@sociomantic.com",
+                "role": "Author"
+            },
+            {
+                "name": "Patrick Leahy",
+                "email": "tenebrousedge@gmail.com",
+                "role": "Author"
+            },
+            {
+                "name": "Jack Hage",
+                "email": "jack@inboxpro.com",
+                "role": "Author"
+            },
+            {
+                "name": "Alexander Ostermeyr",
+                "email": "ao@codesprint.de",
+                "role": "Author"
+            },
+            {
+                "name": "Adam Kuśmierz",
+                "email": "adam@kusmierz.be",
+                "role": "Author"
+            },
+            {
+                "name": "Giacomo Barbalinardo",
+                "email": "info@ready24it.eu"
+            }
+        ],
+        "description": "Zanox API with composer support",
+        "homepage": "http://www.zanox.com",
+        "keywords": [
+            "Zanox"
+        ],
+        "support": {
+            "source": "https://github.com/giacomo/api_client_php/tree/extend"
+        }
+    }
+]

@@ -1,0 +1,453 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-23 15:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: class.dashboard.init.php:73
+msgid "Verbindungsaufbau..."
+msgstr ""
+
+#: class.dashboard.init.php:74
+msgid "Verbindung erfolgreich hergestellt."
+msgstr ""
+
+#: class.dashboard.init.php:75
+msgid ""
+"Eine Verbindung zu Tradedoubler konnte nicht hergestellt werden.</p>"
+"<p><strong>Fehlermeldung:</strong>"
+msgstr ""
+
+#: class.dashboard.init.php:76
+msgid ""
+"Eine Verbindung zu Tradedoubler konnte nicht hergestellt werden. "
+"Bitte überprüfe deine Einstellungen."
+msgstr ""
+
+#: class.dashboard.init.php:77
+msgid "Kein Bild vorhanden"
+msgstr ""
+
+#: class.dashboard.init.php:78 lib/api_lookup.php:133
+msgid "Importieren"
+msgstr ""
+
+#: class.dashboard.init.php:79
+msgid "Editieren"
+msgstr ""
+
+#: class.dashboard.init.php:80
+msgid "Es wurden keine Produkte gefunden. Bitte definiere deine Suche neu."
+msgstr ""
+
+#: class.dashboard.init.php:81
+msgid "Produkt bearbeiten"
+msgstr ""
+
+#: class.dashboard.init.php:82
+msgid "Importiere Produkt <span class=\"current\">1</span> von"
+msgstr ""
+
+#: class.dashboard.init.php:83
+msgid "Die Suche konnte nicht ausgef&uuml;hrt werden. Es trat ein Fehler auf."
+msgstr ""
+
+#: class.dashboard.init.php:84
+msgid ""
+"Bitte deaktiviere deinen Adblocker um alle Funktionen der API zu nutzen!"
+msgstr ""
+
+#: class.dashboard.init.php:104 class.dashboard.init.php:104
+msgid "Tradedoubler"
+msgstr ""
+
+
+
+
+
+#: view/panel.php:14
+msgid "AffiliateTheme Import » Tradedoubler"
+msgstr ""
+
+#: view/panel.php:19 view/panel.php:30
+msgid "Einstellungen"
+msgstr ""
+
+#: view/panel.php:20 view/panel.php:166
+msgid "Suche"
+msgstr ""
+
+#: view/panel.php:21 view/panel.php:247
+msgid "API Log"
+msgstr ""
+
+#: view/panel.php:22 view/panel.php:295
+msgid "Buttons"
+msgstr ""
+
+#: view/panel.php:23
+msgid "Hilfe"
+msgstr ""
+
+#: view/panel.php:37
+msgid "Tradedoubler Produkt API Token"
+msgstr ""
+
+#: view/panel.php:41
+msgid "Website ID"
+msgstr ""
+
+#: view/panel.php:45
+msgid "Produktstatus"
+msgstr ""
+
+#: view/panel.php:48
+msgid "Veröffentlicht"
+msgstr ""
+
+#: view/panel.php:49
+msgid "Entwurf"
+msgstr ""
+
+#: view/panel.php:51
+msgid "Du kannst Produkte sofort veröffentlichen oder als Entwurf anlegen."
+msgstr ""
+
+#: view/panel.php:54 lib/api_lookup.php:65
+msgid "Beschreibung"
+msgstr ""
+
+#: view/panel.php:55
+msgid "Produktbeschreibung importieren"
+msgstr ""
+
+#: view/panel.php:57
+msgid "Einstellungen für den Update-Prozess"
+msgstr ""
+
+#: view/panel.php:59 lib/api_helper.php:226 lib/api_helper.php:254
+#: lib/api_lookup.php:40
+msgid "EAN"
+msgstr ""
+
+#: view/panel.php:62 view/panel.php:70 view/panel.php:78
+msgid "Aktualisieren"
+msgstr ""
+
+#: view/panel.php:63 view/panel.php:71 view/panel.php:79
+msgid "Nicht aktualisieren"
+msgstr ""
+
+#: view/panel.php:67
+msgid "Preise"
+msgstr ""
+
+#: view/panel.php:75
+msgid "URL"
+msgstr ""
+
+#: view/panel.php:79
+msgid "Produkt überprüfen"
+msgstr ""
+
+#: view/panel.php:82
+msgid "Nicht prüfen"
+msgstr ""
+
+#: view/panel.php:83
+msgid "Nur in API-Log vermerken"
+msgstr ""
+
+#: view/panel.php:84
+msgid "Produkt als Entwurf setzen"
+msgstr ""
+
+#: view/panel.php:85
+msgid "Tradedoubler Preis vom Preisvergleich entfernen"
+msgstr ""
+
+#: view/panel.php:96
+msgid "Tradedoubler durchsuchen"
+msgstr ""
+
+#: view/panel.php:101
+msgid "Suche nach Keyword"
+msgstr ""
+
+#: view/panel.php:106
+msgid "Suche nach EAN"
+msgstr ""
+
+#: view/panel.php:108
+msgid "Bei der EAN Suche sind alle Filter (auf der rechten Seite) wirkungslos."
+msgstr ""
+
+#: view/panel.php:112 view/panel.php:199 lib/api_helper.php:260
+msgid "Shop"
+msgstr ""
+
+#: view/panel.php:119 view/panel.php:205
+msgid "Kategorie"
+msgstr ""
+
+#: view/panel.php:128
+msgid "Minimaler Preis"
+msgstr ""
+
+#: view/panel.php:133
+msgid "Maximaler Preis"
+msgstr ""
+
+#: view/panel.php:138
+msgid "Sortierung"
+msgstr ""
+
+#: view/panel.php:140
+msgid "Keine"
+msgstr ""
+
+#: view/panel.php:141 view/panel.php:202 lib/api_helper.php:263
+#: lib/api_lookup.php:50
+msgid "Preis"
+msgstr ""
+
+#: view/panel.php:196 lib/api_helper.php:257
+msgid "Name"
+msgstr ""
+
+#: view/panel.php:142
+msgid "Letzte Aktualisierung"
+msgstr ""
+
+#: view/panel.php:147
+msgid "Reihenfolge"
+msgstr ""
+
+#: view/panel.php:149
+msgid "Absteigend"
+msgstr ""
+
+#: view/panel.php:150
+msgid "Aufsteigend"
+msgstr ""
+
+#: view/panel.php:155
+msgid "Produkte pro Seite"
+msgstr ""
+
+#: view/panel.php:157
+msgid "Maximaler Wert:"
+msgstr ""
+
+#: view/panel.php:175 view/panel.php:229
+msgid "Vorherige Seite"
+msgstr ""
+
+#: view/panel.php:176 view/panel.php:230
+msgid "Nächste Seite"
+msgstr ""
+
+#: view/panel.php:183 lib/api_helper.php:247
+msgid "Alle auswählen"
+msgstr ""
+
+#: view/panel.php:187 lib/api_lookup.php:35
+msgid "ID"
+msgstr ""
+
+#: view/panel.php:190 lib/api_helper.php:251 lib/api_lookup.php:45
+msgid "Artikelnummer"
+msgstr ""
+
+#: view/panel.php:193
+msgid "Vorschau"
+msgstr ""
+
+#: view/panel.php:208 lib/api_helper.php:266
+msgid "Aktion"
+msgstr ""
+
+#: view/panel.php:221 lib/api_helper.php:273
+msgid "Ausgewählte Produkte importieren"
+msgstr ""
+
+#: view/panel.php:249
+msgid "Hier werden dir die letzten 200 Einträge der API log angezeigt."
+msgstr ""
+
+#: view/panel.php:250
+msgid "Log löschen"
+msgstr ""
+
+#: view/panel.php:255
+msgid "Datum"
+msgstr ""
+
+#: view/panel.php:256
+msgid "Typ"
+msgstr ""
+
+#: view/panel.php:257
+msgid "Nachricht"
+msgstr ""
+
+#: view/panel.php:300
+#, php-format
+msgid ""
+"Wenn du für Tradedoubler Produkte spezielle Button-Texte ausgeben möchtest, kannst du "
+"diese hier angeben. <br>Für den Kaufen Button kannst du <u><strong>"
+"%s</strong></u> als Platzhalter für den Shopnamen einbinden, sofern "
+"angegeben."
+msgstr ""
+
+#: view/panel.php:303
+msgid "Kaufen Button (kurz)"
+msgstr ""
+
+#: view/panel.php:304 lib/api_helper.php:126
+msgid "Kaufen"
+msgstr ""
+
+#: view/panel.php:307
+msgid "Kaufen Button"
+msgstr ""
+
+#: view/panel.php:308 lib/api_helper.php:146
+#, php-format
+msgid "Jetzt bei %s kaufen"
+msgstr ""
+
+#: lib/api_helper.php:69
+msgid "Tradedoubler"
+msgstr ""
+
+#: lib/api_helper.php:84
+msgid "Tradedoubler ID"
+msgstr ""
+
+#: lib/api_helper.php:193
+msgid "Tradedoubler Preisvergleich"
+msgstr ""
+
+#: lib/api_helper.php:220
+msgid ""
+"Du kannst mit Hilfe des Preisvergleiches weitere Preise aus verschiedenen "
+"Shops zu diesem Produkt hinzufügen. Suche entweder nach der EAN oder einem "
+"Keyword und importiere weitere Preise. <br>\n"
+"                Die neuen Preise werden sofort im oberen Feld hinzugefügt. "
+"Bitte speichere das Produkt wenn du fertig bist."
+msgstr ""
+
+#: lib/api_helper.php:231
+msgid "Keyword"
+msgstr ""
+
+#: lib/api_helper.php:236
+msgid "Preisvergleich ausführen"
+msgstr ""
+
+#: lib/api_helper.php:351
+msgid "Es wurde kein Produkt gefunden"
+msgstr ""
+
+#: lib/api_helper.php:446
+#, php-format
+msgid ""
+"Achtung: Um dieses Plugin zu verwenden benötigst du mindestens PHP Version 5."
+"3.x. Derzeit verwendest du Version %s."
+msgstr ""
+
+#: lib/api_helper.php:455
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du cURL. <a href=\"http://php."
+"net/manual/de/book.curl.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+
+#: lib/api_helper.php:464
+msgid ""
+"Achtung: Du hast allow_url_fopen deaktiviert. Bitte kontaktiere deinen "
+"Administrator."
+msgstr ""
+
+#: lib/api_helper.php:473
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du SOAP. <a href=\"http://php."
+"net/manual/en/book.soap.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+
+#: lib/api_import.php:93 lib/api_import.php:171
+msgid "Dieses Produkt existiert bereits."
+msgstr ""
+
+#: lib/api_lookup.php:30
+msgid "Titel"
+msgstr ""
+
+#: lib/api_lookup.php:57
+msgid "Bewertung"
+msgstr ""
+
+#: lib/api_lookup.php:72
+msgid "Taxonomien"
+msgstr ""
+
+#: lib/api_lookup.php:77
+msgid "Existierendes Produkt aktualisieren"
+msgstr ""
+
+#: lib/api_lookup.php:88
+msgid "Produktbild"
+msgstr ""
+
+#: lib/api_lookup.php:94
+msgid "Bildname"
+msgstr ""
+
+#: lib/api_lookup.php:100
+msgid "ALT-Tag"
+msgstr ""
+
+#: lib/api_lookup.php:106
+msgid "Artikelbild"
+msgstr ""
+
+#: lib/api_lookup.php:112
+msgid "Überspringen"
+msgstr ""
+
+#: lib/api_lookup.php:136
+msgid "Schließen"
+msgstr ""
+
+#. Name of the plugin
+msgid "AffiliateTheme - Tradedoubler Schnittstelle"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Dieses Plugin erweitert das AffiliateTheme um eine Tradedoubler Schnittstelle"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://affiliatetheme.io"
+msgstr ""
+
+#. Author of the plugin
+msgid "endcore Medienagentur"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://endcore.com"
+msgstr ""

@@ -1,0 +1,56 @@
+{
+    "name": "zanox/api-client-php",
+    "type": "library",
+    "description": "Zanox API with composer support",
+    "keywords": ["Zanox"],
+    "homepage": "http://www.zanox.com",
+    "authors": [
+        {
+            "name": "Zanox",
+            "email": "rba@zanox.com"
+        },
+        {
+            "name": "Thomas Nicolai",
+            "email": "thomas.nicolai@sociomantic.com",
+            "role": "Author"
+        },
+        {
+            "name": "Lars Kirchhoff",
+            "email": "lars.kirchhoff@sociomantic.com",
+            "role": "Author"
+        },
+        {
+            "name": "Patrick Leahy",
+            "email": "tenebrousedge@gmail.com",
+            "role": "Author"
+        },
+        {
+            "name": "Jack Hage",
+            "email": "jack@inboxpro.com",
+            "role": "Author"
+        },
+        {
+            "name": "Alexander Ostermeyr",
+            "email": "ao@codesprint.de",
+            "role": "Author"
+        },
+        {
+            "name": "Adam Kuśmierz",
+            "email": "adam@kusmierz.be",
+            "role": "Author"
+        },
+        {
+            "name": "Giacomo Barbalinardo",
+            "email": "info@ready24it.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4",
+        "zendframework/zend-stdlib": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zanox\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AffiliateTheme - affilinet Schnittstelle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-26 05:53+0000\n"
+"PO-Revision-Date: 2017-06-26 05:53+0000\n"
+"Last-Translator: endcore <mail@endcore.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: lib/api_lookup.php:73
+msgid "Produkteigenschaften"
+msgstr "Attributes"
+
+#: class.dashboard.init.php:77
+msgid "Verbindungsaufbau..."
+msgstr "Trying to connect..."
+
+#: class.dashboard.init.php:78
+msgid "Verbindung erfolgreich hergestellt."
+msgstr "Connection successfully established."
+
+#: class.dashboard.init.php:79
+msgid ""
+"Eine Verbindung zu affilinet konnte nicht hergestellt werden.</p><p><strong>"
+"Fehlermeldung:</strong>"
+msgstr ""
+"A connection with affilinet could not be established.</p> <p><strong>Error "
+"message:</strong>"
+
+#: class.dashboard.init.php:80
+msgid ""
+"Eine Verbindung zu affilinet konnte nicht hergestellt werden. Bitte "
+"überprüfe deine Einstellungen."
+msgstr ""
+"A connection with affilinet could not be established. Please check your "
+"settings."
+
+#: class.dashboard.init.php:81
+msgid "Kein Bild vorhanden"
+msgstr "No image available"
+
+#: class.dashboard.init.php:82 lib/api_lookup.php:252
+msgid "Importieren"
+msgstr "Import"
+
+#: class.dashboard.init.php:83
+msgid "Editieren"
+msgstr "Edit"
+
+#: class.dashboard.init.php:84
+msgid "Es wurden keine Produkte gefunden. Bitte definiere deine Suche neu."
+msgstr "No products found. Please re-define your search."
+
+#: class.dashboard.init.php:85
+msgid "Produkt bearbeiten"
+msgstr "Edit product"
+
+#: class.dashboard.init.php:86
+msgid "Importiere Produkt <span class=\"current\">1</span> von"
+msgstr "Import product <span class=\"current\">1</span> of"
+
+#: class.dashboard.init.php:87
+msgid "Die Suche konnte nicht ausgef&uuml;hrt werden. Es trat ein Fehler auf."
+msgstr "The search could not be performed. An error occured."
+
+#: class.dashboard.init.php:88
+msgid ""
+"Bitte deaktiviere deinen Adblocker um alle Funktionen der API zu nutzen!"
+msgstr "Please deactivate your Adblocker to use all functions of the API!"
+
+#: class.dashboard.init.php:108 class.dashboard.init.php:108
+#: lib/api_helper.php:69
+msgid "Affilinet"
+msgstr "Affilinet"
+
+#: lib/api_categorylist.php:16
+msgid "Kein Shop ausgewählt"
+msgstr "No shop selected"
+
+#: lib/api_helper.php:84
+msgid "Affilinet ID"
+msgstr "Affilinet ID"
+
+#: lib/api_helper.php:126 view/panel.php:318
+msgid "Kaufen"
+msgstr "Buy now"
+
+#: lib/api_helper.php:146 view/panel.php:322
+#, php-format
+msgid "Jetzt bei %s kaufen"
+msgstr "Buy now at %s"
+
+#: lib/api_helper.php:193
+msgid "Affilinet Preisvergleich"
+msgstr "Affilinet price comparison"
+
+#: lib/api_helper.php:212
+msgid ""
+"Du kannst mit Hilfe des Preisvergleiches weitere Preise aus verschiedenen "
+"Shops zu diesem Produkt hinzufügen. Suche entweder nach der EAN oder einem "
+"Keyword und importiere weitere Preise. <br>\n"
+"                Die neuen Preise werden sofort im oberen Feld hinzugefügt. "
+"Bitte speichere das Produkt wenn du fertig bist."
+msgstr ""
+"You can use the price comparison to add additional prices from different "
+"stores to this product. Search by EAN or a keyword and import more prices. "
+"<br>\n"
+"                 The new prices are immediately added in the upper field. "
+"Please save the product when you are done."
+
+#: lib/api_helper.php:218 lib/api_helper.php:245 lib/api_lookup.php:38
+#: view/panel.php:63
+msgid "EAN"
+msgstr "EAN"
+
+#: lib/api_helper.php:223
+msgid "Keyword"
+msgstr "Keyword"
+
+#: lib/api_helper.php:227
+msgid "Preisvergleich ausführen"
+msgstr "Search"
+
+#: lib/api_helper.php:238 view/panel.php:197
+msgid "Alle auswählen"
+msgstr "Select all"
+
+#: lib/api_helper.php:242 lib/api_lookup.php:43 view/panel.php:204
+msgid "Artikelnummer"
+msgstr "Article No."
+
+#: lib/api_helper.php:248 view/panel.php:155 view/panel.php:210
+msgid "Name"
+msgstr "Name"
+
+#: lib/api_helper.php:251 view/panel.php:125 view/panel.php:213
+msgid "Shop"
+msgstr "Shop"
+
+#: lib/api_helper.php:254 lib/api_lookup.php:53 view/panel.php:154
+#: view/panel.php:216
+msgid "Preis"
+msgstr "Price"
+
+#: lib/api_helper.php:257 view/panel.php:222
+msgid "Aktion"
+msgstr "Action"
+
+#: lib/api_helper.php:264 view/panel.php:235
+msgid "Ausgewählte Produkte importieren"
+msgstr "Import selected products"
+
+#: lib/api_helper.php:340
+msgid "Es wurde kein Produkt gefunden"
+msgstr "No products found"
+
+#: lib/api_helper.php:455
+#, php-format
+msgid ""
+"Achtung: Um dieses Plugin zu verwenden benötigst du mindestens PHP Version 5."
+"3.x. Derzeit verwendest du Version %s."
+msgstr ""
+"Warning: To use this plugin you need at least PHP version 5.3.x. Currently, "
+"you are using version %s."
+
+#: lib/api_helper.php:464
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du cURL. <a href=\"http://php."
+"net/manual/de/book.curl.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+"To use this plugin you need cURL. <a href=\"http://php.net/manual/en/book."
+"curl.php\" taget=\"_blank\">Here</a> you can find more information about it. "
+"Please contact your system administrator."
+
+#: lib/api_helper.php:473
+msgid ""
+"Achtung: Du hast allow_url_fopen deaktiviert. Bitte kontaktiere deinen "
+"Administrator."
+msgstr ""
+"Warning: You have disabled allow_url_fopen. Please contact your "
+"administrator."
+
+#: lib/api_helper.php:482
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du SOAP. <a href=\"http://php."
+"net/manual/en/book.soap.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+"To use this plugin you need SOAP. <a href=\"http://php.net/manual/en/book."
+"soap.php\" taget=\"_blank\">Here</a> you'll find more information about it. "
+"Please contact your system administrator."
+
+#: lib/api_import.php:88 lib/api_import.php:170
+msgid "Dieses Produkt existiert bereits."
+msgstr "This product already exists."
+
+#: lib/api_lookup.php:28
+msgid "Titel"
+msgstr "Title"
+
+#: lib/api_lookup.php:33 view/panel.php:201
+msgid "ID"
+msgstr "ID"
+
+#: lib/api_lookup.php:48
+msgid "Bewertung"
+msgstr "Rating"
+
+#: lib/api_lookup.php:63 view/panel.php:58
+msgid "Beschreibung"
+msgstr "Description"
+
+#: lib/api_lookup.php:76 lib/api_lookup.php:175
+msgid "Produkteigenschaften anzeigen"
+msgstr "Show attributes"
+
+#: lib/api_lookup.php:112
+msgid "Wert aus dem Feed auswählen"
+msgstr "Select the value from the feed"
+
+#: lib/api_lookup.php:171
+msgid "Produkteigenschaften ausblenden"
+msgstr "Hide attributes"
+
+#: lib/api_lookup.php:187
+msgid "Taxonomien"
+msgstr "Taxonomies"
+
+#: lib/api_lookup.php:194
+msgid "Existierendes Produkt aktualisieren"
+msgstr "Update an existing product"
+
+#: lib/api_lookup.php:207
+msgid "Produktbild"
+msgstr "Product image"
+
+#: lib/api_lookup.php:213
+msgid "Bildname"
+msgstr "Image name"
+
+#: lib/api_lookup.php:219
+msgid "ALT-Tag"
+msgstr "ALT-Tag"
+
+#: lib/api_lookup.php:225
+msgid "Artikelbild"
+msgstr "Featured image"
+
+#: lib/api_lookup.php:231
+msgid "Überspringen"
+msgstr "Skip"
+
+#: lib/api_lookup.php:255
+msgid "Schließen"
+msgstr "Close"
+
+#: view/panel.php:14
+msgid "AffiliateTheme Import » Affili.net"
+msgstr "AffiliateTheme Import » Affili.net"
+
+#: view/panel.php:19 view/panel.php:30
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: view/panel.php:20 view/panel.php:180
+msgid "Suche"
+msgstr "Search"
+
+#: view/panel.php:21 view/panel.php:261
+msgid "API Log"
+msgstr "API Log"
+
+#: view/panel.php:22 view/panel.php:309
+msgid "Buttons"
+msgstr "Buttons"
+
+#: view/panel.php:23
+msgid "Hilfe"
+msgstr "Help"
+
+#: view/panel.php:37
+msgid "Benutzername"
+msgstr "Username"
+
+#: view/panel.php:41
+msgid "Passwort"
+msgstr "Password"
+
+#: view/panel.php:45
+msgid "Sub ID"
+msgstr "Sub ID"
+
+#: view/panel.php:49
+msgid "Produktstatus"
+msgstr "Product status"
+
+#: view/panel.php:52
+msgid "Veröffentlicht"
+msgstr "Published"
+
+#: view/panel.php:53
+msgid "Entwurf"
+msgstr "Draft"
+
+#: view/panel.php:55
+msgid "Du kannst Produkte sofort veröffentlichen oder als Entwurf anlegen."
+msgstr "You can publish products immediately or create them as a draft."
+
+#: view/panel.php:59
+msgid "Produktbeschreibung importieren"
+msgstr "Import product description"
+
+#: view/panel.php:61
+msgid "Einstellungen für den Update-Prozess"
+msgstr "Update process settings"
+
+#: view/panel.php:66 view/panel.php:74 view/panel.php:82
+msgid "Aktualisieren"
+msgstr "Update"
+
+#: view/panel.php:67 view/panel.php:75 view/panel.php:83
+msgid "Nicht aktualisieren"
+msgstr "Do not update"
+
+#: view/panel.php:71
+msgid "Preise"
+msgstr "Price"
+
+#: view/panel.php:79
+msgid "URL"
+msgstr "URL"
+
+#: view/panel.php:87
+msgid "Produkt überprüfen"
+msgstr "Check product"
+
+#: view/panel.php:90
+msgid "Nicht prüfen"
+msgstr "Do not check"
+
+#: view/panel.php:91
+msgid "Nur in API-Log vermerken"
+msgstr "Notice only in API-log"
+
+#: view/panel.php:92
+msgid "Produkt als Entwurf setzen"
+msgstr "Set product as draft"
+
+#: view/panel.php:93
+msgid "Affili.net Preis vom Preisvergleich entfernen"
+msgstr "Remove affili.net price from price comparison"
+
+#: view/panel.php:94
+msgid ""
+"Leider kann es vorkommen das affilinet Produkte austauscht und dabei die "
+"Unique-ID beibehält. <br>Somit können deine Produkte plötzlich auf ein ganz "
+"anderes verlinken. <br>Wir können versuchen solche Änderungen zu beobachten "
+"und Dich zu benachrichtigen."
+msgstr ""
+"Unfortunately, it can happen that the affilinet exchanges products while "
+"maintaining the unique ID. <br>So your products can suddenly link to a "
+"completely different one. <br>We can try to observe such changes and notify "
+"you."
+
+#: view/panel.php:109
+msgid "Affili.net durchsuchen"
+msgstr "Browse Affili.net"
+
+#: view/panel.php:114
+msgid "Suche nach Keyword"
+msgstr "Search by Keyword"
+
+#: view/panel.php:119
+msgid "Suche nach EAN"
+msgstr "Search by EAN"
+
+#: view/panel.php:121
+msgid "Bei der EAN Suche sind alle Filter (auf der rechten Seite) wirkungslos."
+msgstr "With the EAN search all filters (on the right side) are ineffective."
+
+#: view/panel.php:132 view/panel.php:219
+msgid "Kategorie"
+msgstr "Category"
+
+#: view/panel.php:141
+msgid "Minimaler Preis"
+msgstr "Minimum price"
+
+#: view/panel.php:146
+msgid "Maximaler Preis"
+msgstr "Maximum price"
+
+#: view/panel.php:151
+msgid "Sortierung"
+msgstr "Sorting"
+
+#: view/panel.php:153
+msgid "Relevanz"
+msgstr "Relevance"
+
+#: view/panel.php:156
+msgid "Zuletzt hinzugefügt"
+msgstr "Recently added"
+
+#: view/panel.php:161
+msgid "Reihenfolge"
+msgstr "Order"
+
+#: view/panel.php:163
+msgid "Absteigend"
+msgstr "Descending"
+
+#: view/panel.php:164
+msgid "Aufsteigend"
+msgstr "Ascending"
+
+#: view/panel.php:169
+msgid "Produkte pro Seite"
+msgstr "Products per page"
+
+#: view/panel.php:171
+msgid "Maximaler Wert:"
+msgstr "Maximum value:"
+
+#: view/panel.php:189 view/panel.php:243
+msgid "Vorherige Seite"
+msgstr "Previous page"
+
+#: view/panel.php:190 view/panel.php:244
+msgid "Nächste Seite"
+msgstr "Next page"
+
+#: view/panel.php:207
+msgid "Vorschau"
+msgstr "Preview"
+
+#: view/panel.php:263
+msgid "Hier werden dir die letzten 200 Einträge der API log angezeigt."
+msgstr "Here you will see the last 200 entries of the API log."
+
+#: view/panel.php:264
+msgid "Log löschen"
+msgstr "Delete log"
+
+#: view/panel.php:269
+msgid "Datum"
+msgstr "Date"
+
+#: view/panel.php:270
+msgid "Typ"
+msgstr "Type"
+
+#: view/panel.php:271
+msgid "Nachricht"
+msgstr "Message"
+
+#: view/panel.php:314
+#, php-format
+msgid ""
+"Wenn du für affilinet Produkte spezielle Button-Texte ausgeben möchtest, "
+"kannst du diese hier angeben. <br>Für den Kaufen Button kannst du <u><strong>"
+"%s</strong></u> als Platzhalter für den Shopnamen einbinden, sofern "
+"angegeben."
+msgstr ""
+"If you want a special button value for affilinet products, you can specify "
+"them here.<br>For the buy button, you can include <strong>%s </strong></u> "
+"as a placeholder for the shop name."
+
+#: view/panel.php:317
+msgid "Kaufen Button (kurz)"
+msgstr "\"Buy\" button (short)"
+
+#: view/panel.php:321
+msgid "Kaufen Button"
+msgstr "\"Buy\" button"
+
+#. Name of the plugin
+msgid "AffiliateTheme - affilinet Schnittstelle"
+msgstr "AffiliateTheme - affilinet API"
+
+#. Description of the plugin
+msgid ""
+"Dieses Plugin erweitert das AffiliateTheme um eine affilinet Schnittstelle"
+msgstr "This plugin extends the AffiliateTheme with an affilinet interface"
+
+#. URI of the plugin
+msgid "http://affiliatetheme.io"
+msgstr "http://affiliatetheme.io"
+
+#. Author of the plugin
+msgid "endcore Medienagentur"
+msgstr "endcore Medienagentur"
+
+#. Author URI of the plugin
+msgid "http://endcore.com"
+msgstr "http://endcore.com"

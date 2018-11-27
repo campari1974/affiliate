@@ -1,0 +1,591 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-30 07:53+0000\n"
+"Language: zh-CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: xls-to-po 1.0\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-30 07:53+0000\n"
+"Last-Translator: endcore <mail@endcore.com>\n"
+"Language-Team: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: parts/stuff/code-social.php:40
+msgid "Like"
+msgid_plural "Likes"
+msgstr[0] "像"
+msgstr[1] ""
+
+#: parts/stuff/code-social.php:52 parts/stuff/code-social.php:76
+#: parts/stuff/code-social.php:88 parts/stuff/code-social.php:100
+#: parts/stuff/code-social.php:112
+msgid "Share"
+msgid_plural "Shares"
+msgstr[0] "分享"
+msgstr[1] ""
+
+#: 404.php:8
+msgid "Seite nicht gefunden"
+msgstr "页面未找到"
+
+#: 404.php:9
+msgid ""
+"Es scheint so, als würde die Seite nicht existieren. Vielleicht hilft die "
+"Suche?"
+msgstr "似乎此站点不存在。也许我们的搜索引擎可以帮助吗？"
+
+#: 404.php:14
+msgid "Hinweis für Administrator"
+msgstr "管理員"
+
+#: 404.php:15
+msgid ""
+"Solltest du vermehrt 404-Fehler bekommen, hilft es die Permalinks unter "
+"<strong>Einstellungen</strong> - <strong>Permalinks</strong> neu zu "
+"speichern."
+msgstr ""
+"如果你得到更多的 404 错误，它有助于更新中<strong>设置</strong>-<strong>固定链接</strong>固定链接并再次保存它们。"
+
+#: archive.php:21
+#, php-format
+msgid "Tagesarchiv: %s"
+msgstr "每日存档：％s"
+
+#: archive.php:23
+#, php-format
+msgid "Monatsarchiv: %s"
+msgstr "每月档案： %s"
+
+#: archive.php:23
+msgctxt "monatliches datum format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:25
+#, php-format
+msgid "Jahresarchiv: %s"
+msgstr "每年档案： %s"
+
+#: archive.php:25
+msgctxt "jaehrliches datum format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:27
+msgid "Archiv"
+msgstr "存档"
+
+#: author.php:20
+#, php-format
+msgid "Alle Beiträge von <span>%s</span>"
+msgstr "显示所有帖子<span>%s</span>"
+
+#: author.php:38 comments.php:44 comments.php:114
+msgid "Webseite"
+msgstr "网站"
+
+#: comments.php:34 comments.php:101
+msgid "Senden"
+msgstr "发送"
+
+#: comments.php:35
+msgid "Du hast eine Frage oder eine Meinung zum Produkt? Teile sie mit uns!"
+msgstr "您对这个产品有任何问题吗？与我们分享它 ！"
+
+#: comments.php:36 comments.php:103
+msgid ""
+"Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind "
+"markiert *"
+msgstr "我们将不会公开您的电子邮件地址。必填项已用*标注。"
+
+#: comments.php:39 comments.php:109
+msgid "Name"
+msgstr "名字"
+
+#: comments.php:41 comments.php:111
+msgid "E-Mail Adresse"
+msgstr "邮箱地址"
+
+#: comments.php:49 library/product/comments.php:102
+msgid "Bewertung *"
+msgstr "评分 *"
+
+#: comments.php:66 comments.php:104 library/product/comments.php:122
+msgid "Kommentar"
+msgstr "评论"
+
+#: comments.php:102
+msgid "Du hast eine Frage oder eine Meinung zum Artikel? Teile sie mit uns!"
+msgstr "您对这个这篇文章有问题或意见吗？与我们分享它 ！"
+
+#: search.php:36
+#, php-format
+msgid ""
+"Deine Suche im Bereich <span class=\"highlight\">%s</span> nach <span "
+"class=\"highlight\">%s</span> ergab <span class=\"highlight\">%s</span> "
+"Treffer"
+msgstr ""
+"您的搜索中类别<span class=\"highlight\"></span><span class=\"highlight\"></span>"
+"获得<span class=\"highlight\">%s</span>点击数"
+
+#: search.php:38
+#, php-format
+msgid ""
+"Deine Suche nach <span class=\"highlight\">%s</span> ergab <span "
+"class=\"highlight\">%s</span> Treffer"
+msgstr ""
+"<span class=\"highlight\">%s</span>你搜索导致<span class=\"highlight\">%s</span>"
+"命中总数。"
+
+#: search.php:44
+msgid ""
+"Über die Schaltflächen für die einzelnen Bereiche kannst Du die "
+"Ergebnisliste verfeinern."
+msgstr "通过使用此按钮，可以对结果进行排序。"
+
+#: search.php:56
+msgid "Alle"
+msgstr "全部"
+
+#: searchform.php:3 parts/header/nav-searchform.php:16
+msgid "Suche nach"
+msgstr "搜索"
+
+#: single-filter.php:28 templates/filter.php:116
+#, php-format
+msgid "Ihre Suche ergab <span class=\"highlight\">%s</span> Treffer"
+msgstr "您的搜索导致<span class=\"highlight\">%s</span>点击数"
+
+#: single-filter.php:58 templates/filter.php:138 library/filter/helper.php:247
+msgid "Es wurden keine Produkte gefunden."
+msgstr "没找到商品"
+
+#: templates/compare.php:6
+msgid "Produktvergleich"
+msgstr "产品比较"
+
+#: templates/compare.php:75 templates/compare.php:85 templates/compare.php:96
+#: templates/compare.php:108 templates/compare.php:120
+#: parts/product/code-product-compare.php:19
+#: parts/product/code-product-compare.php:30
+msgid "Produkt auswählen"
+msgstr "選擇一個產品"
+
+#: templates/compare.php:130 parts/product/code-product-compare.php:39
+msgid "Vergleichen"
+msgstr "比較"
+
+#: templates/compare.php:160
+msgid "Keine Treffer"
+msgstr "没有结果"
+
+#: templates/page-builder.php:283 library/widgets/filter.php:144
+#: library/filter/classes/AT_Filter_Field.php:116
+#, php-format
+msgid "%s wählen"
+msgstr "选择％s"
+
+#: templates/page-builder.php:311 library/widgets/filter.php:24
+#: library/widgets/filter.php:221 parts/product/code-compare.php:19
+#: parts/product/code-compare-amp.php:19 parts/product/loop-table-x.php:83
+#: parts/product/loop-table-x.php:155 parts/product/loop-table-y.php:72
+#: library/filter/classes/AT_Filter_Field.php:53
+msgid "Preis"
+msgstr "单价"
+
+#: templates/page-builder.php:335 library/widgets/filter.php:26
+#: library/widgets/filter.php:231 parts/product/loop-table-x.php:127
+#: library/filter/classes/AT_Filter_Field.php:80
+msgid "Bewertung"
+msgstr "评分"
+
+#: templates/page-builder.php:338 library/product/helper.php:1394
+#: library/product/helper.php:1396
+msgid "Sterne"
+msgstr "星级"
+
+#: templates/page-builder.php:409 library/widgets/filter.php:164
+#: library/filter/classes/AT_Filter.php:92
+msgid "Filtern"
+msgstr "过滤"
+
+#: templates/sidebar-left.php:6
+msgid "Sidebar (Links)"
+msgstr "左边栏"
+
+#: templates/sidebar-right.php:5
+msgid "Sidebar (Rechts)"
+msgstr "右边栏"
+
+#: library/helper/comments.php:27
+#, php-format
+msgid "<small class=\"pull-right\">%1$s um %2$s</small>"
+msgstr "<small class=\"pull-right\">在 %2$ 的 %1$s</small>"
+
+#: library/helper/comments.php:31 library/product/comments.php:31
+msgid "Dein Kommentar wartet auf Freischaltung."
+msgstr "您的评论正在等待审核"
+
+#: library/helper/filter.php:67
+msgid "PDFs"
+msgstr "PDF"
+
+#: library/helper/filter.php:68
+msgid "PDFs Verwalten"
+msgstr "管理PDF"
+
+#: library/helper/pagination.php:36
+msgid "Seite 1 - Neueste Artikel"
+msgstr "第 1 页-最新帖子"
+
+#: library/helper/pagination.php:40
+msgid "- Neuere Artikel"
+msgstr "新帖"
+
+#: library/helper/pagination.php:53
+msgid "Seite"
+msgstr "页面"
+
+#: library/helper/pagination.php:60
+msgid "- Ältere Artikel"
+msgstr "旧帖"
+
+#: library/helper/pagination.php:64
+msgid "- Älteste Artikel"
+msgstr "=-最早的帖子"
+
+#: library/helper/scripts.php:60
+msgid "Vorheriges Bild (Linke Pfeiltaste)"
+msgstr "上一篇（左箭头键)"
+
+#: library/helper/scripts.php:61
+msgid "Nächstes Bild (Rechte Pfeiltase)"
+msgstr "下一个（右箭头键)"
+
+#: library/helper/scripts.php:62
+msgid "%curr% von %total%"
+msgstr "%curr% 自 %总%"
+
+#: library/product/comments.php:144
+msgid "Bitte bewerte dieses Produkt<br>"
+msgstr "请评价此产品"
+
+#: library/product/helper.php:27
+msgid "Produkte"
+msgstr "產品"
+
+#: library/product/helper.php:100
+msgid "Weitere Details"
+msgstr "更多详情"
+
+#: library/product/helper.php:103
+msgid "Details"
+msgstr "详细资料"
+
+#: library/product/helper.php:110
+msgid "Jetzt kaufen"
+msgstr "立即購買"
+
+#: library/product/helper.php:111
+msgid "Kaufen"
+msgstr "買"
+
+#: library/product/helper.php:233
+msgid "Zuletzt aktualisiert am: "
+msgstr "最后更新:"
+
+#: library/product/helper.php:310 library/product/helper.php:403
+#, php-format
+msgid "%s / %s bei %s Stimmen"
+msgstr "%s 之外 %s 开始 %s检视"
+
+#: library/product/helper.php:401
+#, php-format
+msgid "%s / %s bei %s Stimme"
+msgstr "%s 之外 %s 开始 %s点评"
+
+#: library/product/helper.php:717
+msgid "ab"
+msgstr "从"
+
+#: library/product/helper.php:1444
+#, php-format
+msgid ""
+"<strong>Hinweis:</strong> Dies ist ein Fake Produkt. Nicht eingeloggte "
+"Besucher werden auf folgende URL weitergeleitet: <mark>%s</mark>"
+msgstr "<strong>注：</strong>这是一个假的产品。不在将被重定向到登录的用户： <mark>%s</mark>。"
+
+#: library/shop/helper.php:23
+msgid "Shops"
+msgstr "商店"
+
+#: library/widgets/filter.php:163 library/filter/classes/AT_Filter.php:97
+msgid "Filter zurücksetzen"
+msgstr "重置筛选器"
+
+#: library/widgets/product-advice.php:126
+#: library/widgets/product-select.php:121
+msgid "<strong>Fehler:</strong> Es wurden keine Produkte gefunden."
+msgstr "<strong>错误：</strong>找不到产品。"
+
+#: parts/header/col-4-8.php:34 parts/header/col-5-2-5.php:51
+#: parts/header/col-12.php:65
+msgid "<strong>Hinweis:</strong> Navigation nicht gesetzt!"
+msgstr "<strong>注：</strong>未定义的导航 ！"
+
+#: parts/product/code-accessories.php:25
+msgid "Es wurde kein Zubehör gefunden."
+msgstr "没有发现配件。"
+
+#: parts/product/code-buybox.php:14
+msgid "zum Preisvergleich"
+msgstr "做比较"
+
+#: parts/product/code-comments.php:2
+msgid "Keine Erfahrungsberichte vorhanden"
+msgstr "还没有任何评论"
+
+#: parts/product/code-comments.php:2 parts/stuff/code-comments.php:5
+msgid "Kommentare"
+msgstr "评论"
+
+#: parts/product/code-compare.php:13 parts/product/code-compare-amp.php:13
+#: parts/product/code-compare-box.php:19
+#: parts/product/code-compare-box-amp.php:19
+msgid "Preisvergleich"
+msgstr "价格比较"
+
+#: parts/product/code-compare.php:18 parts/product/code-compare-amp.php:18
+msgid "Shop"
+msgstr "商店"
+
+#: parts/product/code-compare-box.php:14
+#: parts/product/code-compare-box-amp.php:14
+msgid "Zum Preisvergleich"
+msgstr "对比"
+
+#: parts/product/code-compare-box.php:15
+#: parts/product/code-compare-box-amp.php:15
+#, php-format
+msgid "Alle (%s) anzeigen"
+msgstr "显示所有%s"
+
+#: parts/product/code-filter.php:35
+msgid "Ansicht:"
+msgstr "阅读数"
+
+#: parts/product/code-filter.php:51
+msgid "Neuheiten"
+msgstr "最新发布"
+
+#: parts/product/code-filter.php:52
+msgid "Beliebtheit"
+msgstr "人气"
+
+#: parts/product/code-filter.php:53
+msgid "Preis (aufsteigend)"
+msgstr "价格 （升序）"
+
+#: parts/product/code-filter.php:54
+msgid "Preis (absteigend)"
+msgstr "价格 （降序）"
+
+#: parts/product/code-filter.php:55
+msgid "Name (aufsteigend)"
+msgstr "名称 (升序)"
+
+#: parts/product/code-filter.php:56
+msgid "Name (absteigend)"
+msgstr "名称 (降序)"
+
+#: parts/product/code-price_trend.php:7
+#: parts/product/code-price_trend-modal.php:6 parts/product/code-tabs.php:17
+#: parts/product/code-tabs.php:72 library/product/price_trend/helper.php:372
+#: library/product/price_trend/helper.php:378
+#: library/product/price_trend/helper.php:380
+#: library/product/price_trend/helper.php:385
+msgid "Preisverlauf"
+msgstr "价格走势"
+
+#: parts/product/code-product-compare.php:17
+msgid "Vergleiche ..."
+msgstr "比较..."
+
+#: parts/product/code-product-compare.php:28
+msgid "mit"
+msgstr "和"
+
+#: parts/product/code-product-compare.php:50
+msgid "Hinweis:"
+msgstr "注:"
+
+#: parts/product/code-product-compare.php:51
+msgid ""
+"Bitte lege eine Seite mit dem Template \"Produktvergleich\" fest, damit der "
+"Produktvergleich korrekt funktionieren kann."
+msgstr "请创建一个站点使用模板\"比较\"，使正常工作的比较"
+
+#: parts/product/code-related.php:73
+msgid "Es wurden keine ähnlichen Produkte gefunden."
+msgstr "找不到相关的产品。"
+
+#: parts/product/code-reviews.php:30
+msgid "Gesamtbewertung"
+msgstr "综合评分"
+
+#: parts/product/code-tabs.php:10 parts/product/code-tabs.php:67
+#: library/plugins/amp/templates/single-product.php:48
+msgid "Beschreibung"
+msgstr "描述"
+
+#: parts/product/code-tabs.php:27
+msgid "Erfahrungsberichte"
+msgstr "用户点评"
+
+#: parts/product/code-tabs.php:37 parts/product/code-tabs.php:93
+msgid "Ähnliche Produkte"
+msgstr "相关产品"
+
+#: parts/product/code-tabs.php:47 parts/product/code-tabs.php:99
+msgid "Zubehör"
+msgstr "附件"
+
+#: parts/product/code-tabs.php:62
+msgid "Menu"
+msgstr "菜单"
+
+#: parts/product/code-tabs.php:83
+#, php-format
+msgid "Erfahrungsberichte <span class=\"badge\">%d</span>"
+msgstr "用户评论<span class=\"badge\"></span>"
+
+#: parts/product/loop-table-x.php:69 parts/product/loop-table-y.php:58
+msgid "Modell"
+msgstr "型号"
+
+#: parts/product/loop-table-x.php:109 parts/product/loop-table-y.php:61
+msgid "Testergebnis"
+msgstr "点评"
+
+#: parts/product/page-cloak.php:19
+msgid "Weiterleitung"
+msgstr "重定向"
+
+#: parts/product/page-cloak.php:27
+#, php-format
+msgid ""
+"Du wirst sofort weitergeleitet. Falls nicht, klicke <a href=\"%s\" "
+"rel=\"nofollow\">hier."
+msgstr "你会被重定向。如果不要，请点击<a href=\"%s\" rel=\"nofollow\">这里。</a>"
+
+#: parts/search/loop-search_list.php:22
+msgid "Gefunden in"
+msgstr "发现\""
+
+#: parts/stuff/code-author.php:3
+msgid "Über den Autor"
+msgstr "关于作者"
+
+#: parts/stuff/code-author.php:7
+msgid "Weitere Artikel von"
+msgstr "載入更多帖子"
+
+#: parts/stuff/code-comments.php:5
+msgid "Keine Kommentare vorhanden"
+msgstr "沒有找到任何評論"
+
+#: parts/stuff/code-postmeta.php:4
+msgid "Veröffentlicht von"
+msgstr "发表于"
+
+#: parts/stuff/code-postmeta.php:14
+#, php-format
+msgid "Kategorie(n): %s"
+msgstr "分类"
+
+#: parts/stuff/code-postmeta.php:19
+msgid "Schlagwörter: "
+msgstr "标签"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "Keine Kommentare"
+msgstr "没有评论"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "1 Kommentar"
+msgstr "1 条评论"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "% Kommentare"
+msgstr "% 评论"
+
+#: parts/stuff/code-postnav.php:16
+msgid "zum Vorherigen Artikel"
+msgstr "上一篇文章"
+
+#: parts/stuff/code-postnav.php:17
+msgid "Vorheriger Artikel"
+msgstr "上一篇文章"
+
+#: parts/stuff/code-postnav.php:25
+msgid "zum Nächsten Artikel"
+msgstr "下一篇帖子"
+
+#: parts/stuff/code-postnav.php:26
+msgid "Nächster Artikel"
+msgstr "下一篇帖子"
+
+#: parts/stuff/code-related.php:39
+msgid "Ähnliche Beiträge"
+msgstr "相关文章"
+
+#: parts/stuff/code-social.php:23
+msgid "Signal"
+msgstr "信号"
+
+#: parts/stuff/code-social.php:31
+msgid "WhatsApp"
+msgstr "Whatsapp"
+
+#: parts/stuff/code-social.php:42
+msgid "liken"
+msgstr "赞"
+
+#: parts/stuff/code-social.php:54
+msgid "teilen"
+msgstr "分享"
+
+#: parts/stuff/code-social.php:64
+msgid "Tweet"
+msgid_plural "Tweets"
+msgstr[0] "鸣叫"
+msgstr[1] ""
+
+#: parts/stuff/code-social.php:66
+msgid "tweeten"
+msgstr "Tweet"
+
+#: parts/stuff/code-social.php:78
+msgid "plussen"
+msgstr "另加"
+
+#: parts/stuff/code-social.php:90 parts/stuff/code-social.php:102
+#: parts/stuff/code-social.php:114
+msgid "sharen"
+msgstr "分享"
+
+#: parts/stuff/code-social.php:120
+msgid "Meine Empfehlung f&uuml;r dich"
+msgstr "推荐建议"
+
+#: parts/stuff/code-social.php:122
+msgid "mailen"
+msgstr "邮件"
+
+#: library/filter/classes/AT_Filter_Field.php:94
+msgid " Sterne"
+msgstr "星级"

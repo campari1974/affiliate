@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AffiliateTheme - Belboon Schnittstelle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-04 22:25+0000\n"
+"PO-Revision-Date: 2017-07-05 10:04+0200\n"
+"Last-Translator: endcore <mail@endcore.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+
+#: view/panel.php:290
+msgid ""
+"Wenn du für belboon Produkte spezielle Button-Texte ausgeben möchtest, "
+"kannst du diese hier angeben. <br>Für den Kaufen Button kannst du <u><strong>"
+"%s</strong></u> als Platzhalter für den Shopnamen einbinden, sofern "
+"angegeben.</strong>"
+msgstr ""
+"If you want a special button value for belboon products, you can specify "
+"them here.<br>For the buy button, you can include <strong>%s </strong></u> "
+"as a placeholder for the shop name.</strong>"
+
+#: class.dashboard.init.php:71
+msgid ""
+"Eine Verbindung zu belboon konnte nicht hergestellt werden.</"
+"p><p><strong>Fehlermeldung:</strong>"
+msgstr ""
+"A connection with belboon could not be established.</p> <p><strong>Error "
+"message:</strong>"
+
+#: class.dashboard.init.php:79
+msgid "Die Suche konnte nicht ausgef&uuml;hrt werden. Es trat ein Fehler auf."
+msgstr "The search could not be performed. An error occured."
+
+#: lib/api_helper.php:147 view/panel.php:298
+msgid "Jetzt bei %s kaufen"
+msgstr "Buy now at %s"
+
+#: lib/api_lookup.php:87
+msgid "Existierendes Produkt aktualisieren"
+msgstr "Update an existing product"
+
+#: view/panel.php:132
+msgid "Zuletzt aktualisiert"
+msgstr "Updated on"
+
+#: class.dashboard.init.php:69
+msgid "Verbindungsaufbau..."
+msgstr "Trying to connect..."
+
+#: class.dashboard.init.php:70
+msgid "Verbindung erfolgreich hergestellt."
+msgstr "Connection successfully established."
+
+#: class.dashboard.init.php:72
+msgid ""
+"Eine Verbindung zu belboon konnte nicht hergestellt werden. Bitte überprüfe "
+"deine Einstellungen."
+msgstr ""
+"A connection with bolboon could not be established. Please check your "
+"settings."
+
+#: class.dashboard.init.php:73
+msgid "Kein Bild vorhanden"
+msgstr "No image available"
+
+#: class.dashboard.init.php:75
+msgid "Editieren"
+msgstr "Edit"
+
+#: class.dashboard.init.php:76
+msgid "Es wurden keine Produkte gefunden. Bitte definiere deine Suche neu."
+msgstr "No products found. Please re-define your search."
+
+#: class.dashboard.init.php:77
+msgid "Produkt bearbeiten"
+msgstr "Edit product"
+
+#: class.dashboard.init.php:78
+msgid "Importiere Produkt <span class=\"current\">1</span> von"
+msgstr "Import product <span class=\"current\">1</span> of"
+
+#: class.dashboard.init.php:80
+msgid ""
+"Bitte deaktiviere deinen Adblocker um alle Funktionen der API zu nutzen!"
+msgstr "Please deactivate your Adblocker to use all functions of the API!"
+
+#: lib/api_helper.php:188
+msgid ""
+"Achtung: Du hast allow_url_fopen deaktiviert. Bitte kontaktiere deinen "
+"Administrator."
+msgstr ""
+"Warning: You have disabled allow_url_fopen. Please contact your "
+"administrator."
+
+#: class.dashboard.init.php:74 lib/api_lookup.php:147
+msgid "Importieren"
+msgstr "Import"
+
+#: class.dashboard.init.php:99
+msgid "Belboon"
+msgstr "Belboon"
+
+#: lib/api_helper.php:84
+msgid "Belboon ID"
+msgstr "Belboon"
+
+#: lib/api_helper.php:126 view/panel.php:294
+msgid "Kaufen"
+msgstr "Buy now"
+
+#: lib/api_helper.php:170
+#, php-format
+msgid ""
+"Achtung: Um dieses Plugin zu verwenden benötigst du mindestens PHP Version "
+"5.3.x. Derzeit verwendest du Version %s."
+msgstr ""
+"Warning: To use this plugin you need at least PHP version 5.3.x. Currently, "
+"you are using version %s."
+
+#: lib/api_helper.php:179
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du cURL. <a href=\"http://php.net/"
+"manual/de/book.curl.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+"To use this plugin you need cURL. <a href=\"http://php.net/manual/en/book."
+"curl.php\" taget=\"_blank\">Here</a> you can find more information about it. "
+"Please contact your system administrator."
+
+#: lib/api_helper.php:197
+msgid ""
+"Um dieses Plugin zu verwenden benötigst du SOAP. <a href=\"http://php.net/"
+"manual/en/book.soap.php\" taget=\"_blank\">Hier</a> findest du mehr "
+"Informationen darüber. Kontaktiere im Zweifel deinen Systemadministrator."
+msgstr ""
+"To use this plugin you need SOAP. <a href=\"http://php.net/manual/en/book."
+"soap.php\" taget=\"_blank\">Here</a> you'll find more information about it. "
+"Please contact your system administrator."
+
+#: lib/api_helper.php:206
+msgid "Belboon Preisvergleich"
+msgstr "Belboon price comparison"
+
+#: lib/api_helper.php:212
+msgid ""
+"Du kannst mit Hilfe des Preisvergleiches weitere Preise aus verschiedenen "
+"Shops zu diesem Produkt hinzufügen. Suche entweder nach der EAN oder einem "
+"Keyword und importiere weitere Preise. <br>\n"
+"                Die neuen Preise werden sofort im oberen Feld hinzugefügt. "
+"Bitte speichere das Produkt wenn du fertig bist."
+msgstr ""
+"You can use the price comparison to add additional prices from different "
+"stores to this product. Search by EAN or a keyword and import more prices. "
+"<br>\n"
+"                 The new prices are immediately added in the upper field. "
+"Please save the product when you are done."
+
+#: lib/api_helper.php:218 lib/api_helper.php:245 lib/api_lookup.php:38
+#: view/panel.php:63 lib/api_lookup.php:35 lib/api_lookup.php:36
+#: view/panel.php:59
+msgid "EAN"
+msgstr "EAN"
+
+#: lib/api_helper.php:223
+msgid "Keyword"
+msgstr "Keyword"
+
+#: lib/api_helper.php:227
+msgid "Preisvergleich ausführen"
+msgstr "Search"
+
+#: lib/api_helper.php:238 view/panel.php:197 view/panel.php:153
+#: view/panel.php:177
+msgid "Alle auswählen"
+msgstr "Select all"
+
+#: lib/api_helper.php:242 lib/api_lookup.php:43 view/panel.php:204
+#: lib/api_lookup.php:46 view/panel.php:183
+msgid "Artikelnummer"
+msgstr "Article No."
+
+#: lib/api_helper.php:248 view/panel.php:155 view/panel.php:210
+#: view/panel.php:189
+msgid "Name"
+msgstr "Name"
+
+#: lib/api_helper.php:251 view/panel.php:125 view/panel.php:213
+#: view/panel.php:111 view/panel.php:192
+msgid "Shop"
+msgstr "Shop"
+
+#: lib/api_helper.php:254 lib/api_lookup.php:53 view/panel.php:154
+#: view/panel.php:216 lib/api_lookup.php:50 view/panel.php:168
+#: lib/api_lookup.php:61 view/panel.php:131 view/panel.php:195
+msgid "Preis"
+msgstr "Price"
+
+#: lib/api_helper.php:257 view/panel.php:222 view/panel.php:198
+msgid "Aktion"
+msgstr "Action"
+
+#: lib/api_helper.php:264 view/panel.php:235 view/panel.php:184
+#: view/panel.php:211
+msgid "Ausgewählte Produkte importieren"
+msgstr "Import selected products"
+
+#: lib/api_helper.php:361
+msgid "Es wurde kein Produkt gefunden"
+msgstr "No product found"
+
+#: lib/api_import.php:98 lib/api_import.php:172
+msgid "Dieses Produkt existiert bereits."
+msgstr "This product already exists."
+
+#: lib/api_lookup.php:31
+msgid "Titel"
+msgstr "Title"
+
+#: lib/api_lookup.php:41 view/panel.php:180
+msgid "ID"
+msgstr "ID"
+
+#: lib/api_lookup.php:51
+msgid "Bewertung"
+msgstr "Rating"
+
+#: lib/api_lookup.php:56
+msgid "Anzahl der Bewertungen"
+msgstr "Amount of reviews"
+
+#: lib/api_lookup.php:71 view/panel.php:54
+msgid "Beschreibung"
+msgstr "Description"
+
+#: lib/api_lookup.php:80
+msgid "Taxonomien"
+msgstr "Taxonomies"
+
+#: lib/api_lookup.php:101
+msgid "Produktbild"
+msgstr "Product image"
+
+#: lib/api_lookup.php:107
+msgid "Bildname"
+msgstr "Image name"
+
+#: lib/api_lookup.php:113
+msgid "ALT-Tag"
+msgstr "ALT-Tag"
+
+#: lib/api_lookup.php:119
+msgid "Artikelbild"
+msgstr "Featured image"
+
+#: lib/api_lookup.php:125
+msgid "Überspringen"
+msgstr "Skip"
+
+#: lib/api_lookup.php:150
+msgid "Schließen"
+msgstr "Close"
+
+#: view/panel.php:14
+msgid "AffiliateTheme Import » Belboon"
+msgstr "AffiliateTheme Import » Belboon"
+
+#: view/panel.php:19 view/panel.php:30
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: view/panel.php:20 view/panel.php:99 view/panel.php:148
+msgid "Suche"
+msgstr "Search"
+
+#: view/panel.php:21 view/panel.php:237
+msgid "API Log"
+msgstr "API Log"
+
+#: view/panel.php:22 view/panel.php:285
+msgid "Buttons"
+msgstr "Buttons"
+
+#: view/panel.php:23
+msgid "Hilfe"
+msgstr "Help"
+
+#: view/panel.php:37
+msgid "Benutzername"
+msgstr "Username"
+
+#: view/panel.php:41
+msgid "Passwort"
+msgstr "Password"
+
+#: view/panel.php:45
+msgid "Produktstatus"
+msgstr "Product status"
+
+#: view/panel.php:48
+msgid "Veröffentlicht"
+msgstr "Published"
+
+#: view/panel.php:49
+msgid "Entwurf"
+msgstr "Draft"
+
+#: view/panel.php:51
+msgid "Du kannst Produkte sofort veröffentlichen oder als Entwurf anlegen."
+msgstr "You can publish products immediately or create them as a draft."
+
+#: view/panel.php:55
+msgid "Produktbeschreibung importieren"
+msgstr "Import product description"
+
+#: view/panel.php:57
+msgid "Einstellungen für den Update-Prozess"
+msgstr "Settings for the update process"
+
+#: view/panel.php:62 view/panel.php:70 view/panel.php:78
+msgid "Aktualisieren"
+msgstr "Update"
+
+#: view/panel.php:63 view/panel.php:71 view/panel.php:79
+msgid "Nicht aktualisieren"
+msgstr "Do not update"
+
+#: view/panel.php:67
+msgid "Preise"
+msgstr "Price"
+
+#: view/panel.php:75
+msgid "URL"
+msgstr "URL"
+
+#: view/panel.php:83
+msgid "Produkt überprüfen"
+msgstr "Check product"
+
+#: view/panel.php:86
+msgid "Nicht prüfen"
+msgstr "Do not check"
+
+#: view/panel.php:87
+msgid "Nur in API-Log vermerken"
+msgstr "Notice in API-Log"
+
+#: view/panel.php:88
+msgid "Produkt als Entwurf setzen"
+msgstr "Set product as draft"
+
+#: view/panel.php:89
+msgid "Belboon Preis vom Preisvergleich entfernen"
+msgstr "Remove Belboon price from price comparison"
+
+#: view/panel.php:95
+msgid "Belboon durchsuchen"
+msgstr "Browse Belboon"
+
+#: view/panel.php:104
+msgid "Plattform"
+msgstr "Platform"
+
+#: view/panel.php:118
+msgid "Minimaler Preis"
+msgstr "Minimum price"
+
+#: view/panel.php:123
+msgid "Maximaler Preis"
+msgstr "Maximum price"
+
+#: view/panel.php:128
+msgid "Sortierung"
+msgstr "Sorting"
+
+#: view/panel.php:133
+msgid "Produktname"
+msgstr "Product name"
+
+#: view/panel.php:138
+msgid "Reihenfolge"
+msgstr "Order"
+
+#: view/panel.php:140
+msgid "Absteigend"
+msgstr "Descending"
+
+#: view/panel.php:141
+msgid "Aufsteigend"
+msgstr "Ascending"
+
+#: view/panel.php:159 view/panel.php:219
+msgid "Vorherige Seite"
+msgstr "Previous Page"
+
+#: view/panel.php:160 view/panel.php:220
+msgid "Nächste Seite"
+msgstr "Next page"
+
+#: view/panel.php:186
+msgid "Vorschau"
+msgstr "Preview"
+
+#: view/panel.php:239
+msgid "Hier werden dir die letzten 200 Einträge der API log angezeigt."
+msgstr "Here you will see the last 200 entries of the API log."
+
+#: view/panel.php:240
+msgid "Log löschen"
+msgstr "Delete log"
+
+#: view/panel.php:245
+msgid "Datum"
+msgstr "Date"
+
+#: view/panel.php:246
+msgid "Typ"
+msgstr "Type"
+
+#: view/panel.php:247
+msgid "Nachricht"
+msgstr "Message"
+
+#: view/panel.php:293
+msgid "Kaufen Button (kurz)"
+msgstr "\"Buy\" button (short)"
+
+#: view/panel.php:297
+msgid "Kaufen Button"
+msgstr "\"Buy\" button"
+
+#. Name of the plugin
+msgid "AffiliateTheme - Belboon Schnittstelle"
+msgstr "AffiliateTheme - Belboon API"
+
+#. Description of the plugin
+msgid ""
+"Dieses Plugin erweitert das AffiliateTheme um eine Belboon Schnittstelle"
+msgstr "This plugin extends the AffiliateTheme with an Belboon interface"
+
+#. URI of the plugin
+msgid "http://affiliatetheme.io"
+msgstr "http://affiliatetheme.io"
+
+#. Author of the plugin
+msgid "endcore Medienagentur"
+msgstr "endcore Medienagentur"
+
+#. Author URI of the plugin
+msgid "http://endcore.com"
+msgstr "http://endcore.com"
