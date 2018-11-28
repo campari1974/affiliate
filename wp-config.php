@@ -48,7 +48,7 @@ $table_prefix  = 'wp_';
 | prefer to be secure by default.
 |
 */
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', false);
 /*
 |--------------------------------------------------------------------------
 | WordPress Debugging Mode - MODIFICATION NOT RECOMMENDED (see below)
@@ -105,7 +105,14 @@ define('DB_COLLATE', '');
 | That's all, stop editing! Happy blogging.
 |--------------------------------------------------------------------------
 */
-// absolute path to the WordPress directory
+/** Der absolute Pfad zum WordPress-Verzeichnis. */                                                                                                                                                                                                     
+if ( !defined('ABSPATH') )                                                                                                                                                                                                                              
+        define('ABSPATH', dirname(__FILE__) . '/');                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                        
+/** Definiert WordPress-Variablen und fügt Dateien ein.  */                                                                                                                                                                                             
+require_once(ABSPATH . 'wp-settings.php'); 
+
+/*
 if ( !defined('ABSPATH') )
   define('ABSPATH', dirname(__FILE__) . '/');
 // tell WordPress where the plugins directory really is
@@ -113,3 +120,4 @@ if ( !defined('WP_PLUGIN_DIR') && is_link(ABSPATH . '/wp-content/plugins') )
   define('WP_PLUGIN_DIR', realpath(ABSPATH . '/wp-content/plugins'));
 // sets up WordPress vars and included files
 require_once(ABSPATH . 'wp-settings.php');
+*/
