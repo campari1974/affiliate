@@ -1,115 +1,115 @@
 <?php
+/*
+|--------------------------------------------------------------------------
+| WordPress Configuration
+|--------------------------------------------------------------------------
+|
+| This file has been configured for use with OpenShift.
+|
+| To learn more about managing WordPress on Openshift, see:
+| https://developers.openshift.com/en/php-wordpress.html
+|
+*/
+/*
+|--------------------------------------------------------------------------
+| OpenShift Recommended Add-on: SendGrid
+|--------------------------------------------------------------------------
+|
+| By default, WordPress uses PHP's mail function to send emails. We
+| strongly recommend using SendGrid to ensure messages are delivered to
+| both you and your users.
+|
+| To learn more installing SendGrid, see:
+| https://developers.openshift.com/en/marketplace-sendgrid.html#php-wordpress
+|
+*/
 /**
- * Grundeinstellungen für WordPress
- *
- * Zu diesen Einstellungen gehören:
- *
- * * MySQL-Zugangsdaten,
- * * Tabellenpräfix,
- * * Sicherheitsschlüssel
- * * und ABSPATH.
- *
- * Mehr Informationen zur wp-config.php gibt es auf der
- * {@link https://codex.wordpress.org/Editing_wp-config.php wp-config.php editieren}
- * Seite im Codex. Die Zugangsdaten für die MySQL-Datenbank
- * bekommst du von deinem Webhoster.
- *
- * Diese Datei wird zur Erstellung der wp-config.php verwendet.
- * Du musst aber dafür nicht das Installationsskript verwenden.
- * Stattdessen kannst du auch diese Datei als wp-config.php mit
- * deinen Zugangsdaten für die Datenbank abspeichern.
- *
- * @package WordPress
+ * Code provided for users following SendGrid instructions linked above.
  */
-
-// ** MySQL-Einstellungen ** //
-/**   Diese Zugangsdaten bekommst du von deinem Webhoster. **/
-
-/**
- * Ersetze datenbankname_hier_einfuegen
- * mit dem Namen der Datenbank, die du verwenden möchtest.
- */
-define('DB_NAME', 'affiliate');
-
-/**
- * Ersetze benutzername_hier_einfuegen
- * mit deinem MySQL-Datenbank-Benutzernamen.
- */
-define('DB_USER', 'root');
-
-/**
- * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
- */
-define('DB_PASSWORD', '');
-
-/**
- * Ersetze localhost mit der MySQL-Serveradresse.
- */
-define('DB_HOST', 'localhost');
-
-/**
- * Der Datenbankzeichensatz, der beim Erstellen der
- * Datenbanktabellen verwendet werden soll
- */
-define('DB_CHARSET', 'utf8mb4');
-
-/**
- * Der Collate-Type sollte nicht geändert werden.
- */
-define('DB_COLLATE', '');
-
-/**#@+
- * Sicherheitsschlüssel
- *
- * Ändere jeden untenstehenden Platzhaltertext in eine beliebige,
- * möglichst einmalig genutzte Zeichenkette.
- * Auf der Seite {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * kannst du dir alle Schlüssel generieren lassen.
- * Du kannst die Schlüssel jederzeit wieder ändern, alle angemeldeten
- * Benutzer müssen sich danach erneut anmelden.
- *
- * @since 2.6.0
- */
-define('AUTH_KEY',         '06 R}:L$1hm,C=EjpwqyueJ$9)7#;uvNO]M)>x][bJ)9EoQ&P5YR$WG!?%EgSCO+');
-define('SECURE_AUTH_KEY',  'ifC{bE=EIE?cV TYVl[JHr#zoy/nB=!ZNY)iA08wlS=,:eH0Z=J|%-b&3=4jA.iB');
-define('LOGGED_IN_KEY',    '[b{Do=0rmtM<{!8X0F(e5zEBIHp3do^ma{0<9%_niqQtpk*lR>).MeQ-rtr`[4!)');
-define('NONCE_KEY',        'QfY:cF.[s;1)?wN$@I{$0QRQgk;uGUFennIG%&-c]3m+V_(eSK-zG[c!v=sOw&mm');
-define('AUTH_SALT',        'LH5E~$%u[-V+0n)B^#@jo}[C&ZtvK._ 19Pd;_!bJ;!M11T{6%yuBBDldYW6POqj');
-define('SECURE_AUTH_SALT', 'pRVBX J<I?GWT^dLGejpAS$`3kT87(n BWB69o/.kT>njwjMiL_&n3Hl~f&0R;xr');
-define('LOGGED_IN_SALT',   'LNQ%v*AH4 kW+I:0YQyVC9l,K3^n<JD?jNX7=CWI{}RnAzs+zb~l.NJ|r&XZ:|HG');
-define('NONCE_SALT',       'K|O:jy+QWvJy+.|ywK$VfU[AK>IK]]j$>!$,xr[$u{Wv.3ck*?wi1uECVn&34Vo7');
-
-/**#@-*/
-
-/**
- * WordPress Datenbanktabellen-Präfix
- *
- * Wenn du verschiedene Präfixe benutzt, kannst du innerhalb einer Datenbank
- * verschiedene WordPress-Installationen betreiben.
- * Bitte verwende nur Zahlen, Buchstaben und Unterstriche!
- */
+//define('SENDGRID_USERNAME', getenv('SENDGRID_USERNAME'));
+//define('SENDGRID_PASSWORD', getenv('SENDGRID_PASSWORD'));
+//define('SENDGRID_SEND_METHOD', 'api');
+/*
+|--------------------------------------------------------------------------
+| WordPress Database Table Prefix
+|--------------------------------------------------------------------------
+|
+| You can have multiple installations in one database if you give each a unique
+| prefix. Only numbers, letters, and underscores please!
+|
+*/
 $table_prefix  = 'wp_';
-
-/**
- * Für Entwickler: Der WordPress-Debug-Modus.
- *
- * Setze den Wert auf „true“, um bei der Entwicklung Warnungen und Fehler-Meldungen angezeigt zu bekommen.
- * Plugin- und Theme-Entwicklern wird nachdrücklich empfohlen, WP_DEBUG
- * in ihrer Entwicklungsumgebung zu verwenden.
- *
- * Besuche den Codex, um mehr Informationen über andere Konstanten zu finden,
- * die zum Debuggen genutzt werden können.
- *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
- */
-define('WP_DEBUG', false);
-
-/* Das war’s, Schluss mit dem Bearbeiten! Viel Spaß beim Bloggen. */
-/* That's all, stop editing! Happy blogging. */
-
-/** Der absolute Pfad zum WordPress-Verzeichnis. */
+/*
+|--------------------------------------------------------------------------
+| WordPress Administration Panel
+|--------------------------------------------------------------------------
+|
+| Determine whether the administration panel should be viewed over SSL. We
+| prefer to be secure by default.
+|
+*/
+define('FORCE_SSL_ADMIN', true);
+/*
+|--------------------------------------------------------------------------
+| WordPress Debugging Mode - MODIFICATION NOT RECOMMENDED (see below)
+|--------------------------------------------------------------------------
+| 
+| Set OpenShift's APPLICATION_ENV environment variable in order to enable 
+| detailed PHP and WordPress error messaging during development.
+|
+| Set the variable, then restart your app. Using the `rhc` client:
+|
+|   $ rhc env set APPLICATION_ENV=development -a <app-name>
+|   $ rhc app restart -a <app-name>
+|
+| Set the variable to 'production' and restart your app to deactivate error 
+| reporting.
+|
+| For more information about the APPLICATION_ENV variable, see:
+| https://developers.openshift.com/en/php-getting-started.html#development-mode
+|
+| WARNING: We strongly advise you NOT to run your application in this mode 
+|          in production.
+|
+*/
+define('WP_DEBUG', getenv('APPLICATION_ENV') == 'development' ? true : false);
+/*
+|--------------------------------------------------------------------------
+| MySQL Settings - DO NOT MODIFY
+|--------------------------------------------------------------------------
+|
+| WordPress will automatically connect to your OpenShift MySQL database
+| by making use of OpenShift environment variables configured below.
+|
+| For more information on using environment variables on OpenShift, see:
+| https://developers.openshift.com/en/managing-environment-variables.html
+|
+*/
+define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
+define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_PASSWORD', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST') . ':' . getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');
+/*
+|--------------------------------------------------------------------------
+| Authentication Unique Keys and Salts - DO NOT MODIFY
+|--------------------------------------------------------------------------
+|
+| Keys and Salts are automatically configured below.
+|
+*/
+require_once(getenv('OPENSHIFT_REPO_DIR') . '.openshift/openshift.inc');
+/*
+|--------------------------------------------------------------------------
+| That's all, stop editing! Happy blogging.
+|--------------------------------------------------------------------------
+*/
+// absolute path to the WordPress directory
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
-
-/** Definiert WordPress-Variablen und fügt Dateien ein.  */
+  define('ABSPATH', dirname(__FILE__) . '/');
+// tell WordPress where the plugins directory really is
+if ( !defined('WP_PLUGIN_DIR') && is_link(ABSPATH . '/wp-content/plugins') )
+  define('WP_PLUGIN_DIR', realpath(ABSPATH . '/wp-content/plugins'));
+// sets up WordPress vars and included files
 require_once(ABSPATH . 'wp-settings.php');
